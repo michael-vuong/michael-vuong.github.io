@@ -29,13 +29,13 @@ resume-url: https://docs.google.com/document/d/1uZrQ7hMOIwVLuUDeOOAB4x2K59qg00WC
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: michael-vuong7/    # https://www.linkedin.com/in/{your url slug} 
+  linkedin: michael-vuong7   # https://www.linkedin.com/in/{your url slug} 
   github: michael-vuong    # https://github.com/{your url slug} 
   stackoverflow:      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
-  instragram:michaelvuong_       # https://instagram.com/{your url slug} 
+  instragram: michaelvuong_    # https://instagram.com/{your url slug} 
   youtube:           # https://youtube.com/@{your url slug} 
   discord:            # https://discord.com/users/{your url slug} 
   bluesky:           # https://bsky.app/profile/{your url slug} 
