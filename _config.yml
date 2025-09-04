@@ -23,7 +23,7 @@ profile_image: ./assets/images/profile-image/avatar.jpeg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://docs.google.com/document/d/1uZrQ7hMOIwVLuUDeOOAB4x2K59qg00WCQHYJ9n8B5p4/edit?usp=sharing # or /assets/resume/resume.pdf
+resume-url: https://drive.google.com/file/d/1wHUCXAr6kXn9IU0RvEzSYCMekH9nlFeB/view?usp=sharing # or /assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -35,7 +35,7 @@ external-links:    # input only your own url slug. The icons with missing entrie
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
-  instragram: michaelvuong_    # https://instagram.com/{your url slug} 
+  instragram: michaelvuong_   # https://instagram.com/{your url slug} 
   youtube:           # https://youtube.com/@{your url slug} 
   discord:            # https://discord.com/users/{your url slug} 
   bluesky:           # https://bsky.app/profile/{your url slug} 
