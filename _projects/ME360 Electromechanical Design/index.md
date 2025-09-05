@@ -1,15 +1,10 @@
 ---
 layout: post
-title: Super Heavy Booster Catch (Demo Only)
-description:  Progress and Documentation of Electromechanical Design course.
+title: ME360 Electromechanical Design
+description:  Progress and documentation of my electromechanical design course.
 
-  - Structural analysis
-  - Aerodynamic design
-  - Propulsion system integration
-  - Control Algorithem 
-  - Welding
-  - Metal forming
-  - Thermal simulation
+  - Solidworks
+  
 
 main-image: /project2.jpg
 ---
