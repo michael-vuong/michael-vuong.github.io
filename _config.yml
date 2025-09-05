@@ -7,13 +7,13 @@
 
 # Main Page Setup
 
-title: Michael Vuong's Portfolio # This is what shows up in the tab of the browser
+title: Michael Vuong's Engineering Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
 name: Michael Vuong
-headline: headline message
+headline: Welcome! I am a junior majoring in mechanical engineering with a concentration in manufacturing at Boston University.
 description: >- # dont remove this line. this will ignore all new lines until the next section
   
 
