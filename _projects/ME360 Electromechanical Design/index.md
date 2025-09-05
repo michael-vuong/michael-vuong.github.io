@@ -6,5 +6,5 @@ skills:
   - Solidworks
   
 
-main-image: /project2.jpg
+main-image: /ME360-Banner-Image-Half-600x500.jpg
 ---
