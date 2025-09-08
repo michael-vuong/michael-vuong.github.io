@@ -33,6 +33,8 @@ You can put in multiple entries. All images will be at a fixed height in the sam
 ### Embeed images
 {% include image-gallery.html images="image-optimisation-scaled.jpg" height="400" %}  
 place the images in project folder/images then update the file path.   
+<img src="images/project2.jpg" alt="4 bar mechanism" width="400">
+
 
 
 ## Embedding youtube video
