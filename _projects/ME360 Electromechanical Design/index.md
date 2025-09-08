@@ -10,14 +10,7 @@ main-image: /ME360-Banner-Image-Half-600x500.jpg
 ---
 # 4 Bar Mechanism 
 My first tutorial assembling and analysing the motion of a 4 bar mechanism
-
-{% include image-gallery.html images="image-optimisation-scaled.jpg" height="400" %}
-4bar
-<img src="images/4bar.jpg" alt="4 bar mechanism" width="400">
-
-### Embeed images
-{% include image-gallery.html images="image-optimisation-scaled.jpg" height="400" %}  
-place the images in project folder/images then update the file path.   
+{% include image-gallery.html images="4bar.jpg" height="400" %}
 
 ## Tracing the velocities in the x and y direction
 {% include image-gallery.html images="x-velocity.jpg" height="400" %}
