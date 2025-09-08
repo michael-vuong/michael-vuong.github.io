@@ -13,6 +13,8 @@ My first tutorial assembling and analysing the motion of a 4 bar mechanism
 
 {% include image-gallery.html images="image-optimisation-scaled.jpg" height="400" %}
 4bar
+<img src="images/4bar.jpg" alt="4 bar mechanism" width="400">
+
 ### Embeed images
 {% include image-gallery.html images="image-optimisation-scaled.jpg" height="400" %}  
 place the images in project folder/images then update the file path.   
