@@ -27,7 +27,7 @@ My first tutorial assembling and analysing the motion of a 4 bar mechanism
 
 ## Maximum vertical force exerted on Bearing and NewBearing:
 12N, 10N
-{% include image-gallery.html images="bearing-vertical-force.jpg" height="400" %}
+{% include image-gallery.html images="bearing-vertical force.jpg" height="400" %}
 
 ## The minimum motor power required to move the crank at constant angular speed of 600 rpm: 
 496.5W
