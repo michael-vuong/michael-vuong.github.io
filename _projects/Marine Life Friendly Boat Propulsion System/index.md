@@ -8,4 +8,4 @@ skills:
 main-image: /project.webp 
 ---
 
-{% include youtube-video.html id="JOS77NhdZYreqmLA" autoplay= "false"%}
+{% include youtube-video.html id="NoGUf8UYBqg5IeG2" autoplay= "false"%}
