@@ -17,10 +17,14 @@ To design the skeleton model of the mechanism, I used software called Math Illus
 
 3. Running simple motion traces to verify that the resulting linkage produced the intended flapping/rotary motion.
 
-
+## Solidworks Model
 {% include image-gallery.html images="ModelImg.jpg" height="400" %} 
 
+## Model Motion
 {% include youtube-video.html id="ai2E-1HY8q4" autoplay= "false"%}
 
+## Model Top View Motion
+{% include youtube-video.html id="O9DNAI9ii0A" autoplay= "false"%}
 
+## Video of Inspired Marine Animal
 {% include youtube-video.html id="4HGNqFdaD34" autoplay= "false"%}
