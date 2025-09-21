@@ -21,9 +21,7 @@ To design the skeleton model of the mechanism, I used software called Math Illus
 {% include image-gallery.html images="ModelImg.jpg" height="400" %} 
 place the images in project folder/images then update the file path.
 
-{% include image-gallery.html images="ModelImg.jpg" height="400" %} 
 
-{% include image-gallery.html images="BoatAssem.avi, BoatAssemTop.avi" height="400" %} 
 
 {% include youtube-video.html id="4HGNqFdaD34" autoplay= "false"%}
 
