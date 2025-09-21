@@ -16,7 +16,6 @@ To design the skeleton model of the mechanism, I used software called Math Illus
 2. Adding moving links with approximate lengths based on proportions observed in the organism.
 
 3. Running simple motion traces to verify that the resulting linkage produced the intended flapping/rotary motion.
-
 ---
 
 ## Solidworks Model
