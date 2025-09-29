@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ArduinoTempSensor
-description:  
+description: ATS
 skills: 
+ - Arduino
  
