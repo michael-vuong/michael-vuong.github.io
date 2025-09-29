@@ -55,18 +55,10 @@ skills:
     - Google Suite
   - category: Manufacturing
     tools:
-    - CNC Mill
+    - CNC Milling
     - Soldering
     - 3D Printing 
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
     - Laser Cutting
-    - Water Jet Cutting
     - Arduino / Raspberry Pi
     - Breadboarding for circuit testing
   - category: Design Standards / Practices
