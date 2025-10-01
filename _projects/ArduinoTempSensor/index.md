@@ -14,6 +14,3 @@ skills:
   - Drill Press
 main-image: 
 ---
-
-# Link
-https://drive.google.com/file/d/0B42eFN0K6gl0SnNLeURYdy1mVk0/view?usp=drive_link&resourcekey=0-yhQMddzUbYpgzvCt3fYGYw
