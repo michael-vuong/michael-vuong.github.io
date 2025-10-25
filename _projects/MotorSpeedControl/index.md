@@ -9,4 +9,3 @@ skills:
 main-image: /project.webp 
 ---
 
-## Project Overview 
