@@ -50,4 +50,8 @@ The reaction force does not exceed 0 and the acceleration does not exceed g/12
 For our initial design, we decided to make the base out of laser cut wood and 3D print the rest of the components such as the motor mount, axel mount, and wheels. We later decided against this because we found out that the 3D process would take too long for the amount of time we had left to build our car. We transitioned to laser cutting the rest of the components with wood stock. 
 {% include image-gallery.html images="BaseLaserSketch.png, WheelLaserSketch.png" height="300" %}
 
+## Embedding youtube video
+The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
+*Example* : https://www.youtube.com/watch?v={**Zf3iwgYW0Xs**}&ab_channel=engineerguy
+
 To assemble the parts together we used combination of wood glue, screws, and nuts. To balance out of the car we mounted the arduino and motor driver in the front, the motor in the back, and the beam in the middle. While testing however, we found out that our wheels were too flimsy as the wood it was made out of was too thin and flexible. We changed the wheel material to acrylic and made it thicker to solve this problem.
