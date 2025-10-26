@@ -17,9 +17,14 @@ The first objective before building our car was to find out the maximum linear a
 ### Maximum Linear Acceleration Calculations
 {% include image-gallery.html images="MaxAccel.png" height="400" %}
 
+
 ## Design
 I decided to come up with a simple design of a car with a large platform base that would be able to hold the arduino, motor, motor driver, and beam on top of the car. 
+
 
 ### Car Solidworks Model
 {% include image-gallery.html images="Screenshot 2025-10-25 171213.png, Screenshot 2025-10-25 171225.png, Screenshot 2025-10-25 171235.png, Screenshot 2025-10-25 171257.png" height="400" %}
 
+
+### Assembly and Simulation
+[Solidworks Assembly Zip File](https://drive.google.com/file/d/10_lBNCp1_xFcNAUBQ0WyM6Ow-17mYM3Y/view?usp=sharing)
