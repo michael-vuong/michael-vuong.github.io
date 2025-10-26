@@ -16,6 +16,7 @@ The first objective before building our car was to find out the maximum linear a
 
 ### Maximum Linear Acceleration Calculations
 {% include image-gallery.html images="MaxAccel.png" height="400" %}
+Maximum Acceleration is g/12
 
 
 ## Design
@@ -23,7 +24,8 @@ I decided to come up with a simple design of a car with a large platform base th
 
 
 ### Car Solidworks Model
-{% include image-gallery.html images="Screenshot 2025-10-25 171213.png, Screenshot 2025-10-25 171225.png, Screenshot 2025-10-25 171235.png, Screenshot 2025-10-25 171257.png" height="400" %}
+{% include image-gallery.html images="Screenshot 2025-10-25 171213.png, Screenshot 2025-10-25 171225.png, Screenshot 2025-10-25 171235.png, Screenshot 2025-10-25 171257.png" height="300" %}
+Car Model
 
 
 ### Assembly and Simulation
