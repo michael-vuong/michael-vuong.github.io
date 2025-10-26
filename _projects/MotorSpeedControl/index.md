@@ -56,4 +56,4 @@ To assemble the parts together we used combination of wood glue, screws, and nut
 
 ## Embedding youtube video
 The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**Zf3iwgYW0Xs**}
+{% include youtube-video.html id="Zf3iwgYW0Xs" autoplay= "false"%}
