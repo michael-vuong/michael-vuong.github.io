@@ -54,6 +54,13 @@ Base and Wheel Sketch For Laser Printing
 
 To assemble the parts together we used combination of wood glue, screws, and nuts. To balance out of the car we mounted the arduino and motor driver in the front, the motor in the back, and the beam in the middle. While testing however, we found out that our wheels were too flimsy as the wood it was made out of was too thin and flexible. We changed the wheel material to acrylic and made it thicker to solve this problem.
 
+## Testing
+Our testing process included many trial and errors. Our code was based off of a error correction equation. In essence, we would set a target RPM for the motor to reach and the closer it got to the target RPM, the slower it would accelerate. This would control the angular acceleration of the motor and restrain the linear acceleration from overshooting and exceeding g/12, causing the beam to topple. For each test, we played around with the correction error constant, duration of the run, and the target RPM until we found a balance of the factors that resulted in a fast run without the beam toppling.
+
 ## Embedding youtube video
 The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
 {% include youtube-video.html id="Zf3iwgYW0Xs" autoplay= "false"%}
+Successful Test Run
+
+## Results
+Our final runtime would run just over 12 seconds. This is slightly different from our simulated time which is most likely due to errors in our assembly process and environmental factors which led to changes in the our code and ability to accelerate faster to account for.
