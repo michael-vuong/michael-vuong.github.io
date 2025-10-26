@@ -59,12 +59,10 @@ Design Iterations
 ## Testing
 Our testing process included many trial and errors. Our code was based off of a error correction equation. In essence, we would set a target RPM for the motor to reach and the closer it got to the target RPM, the slower it would accelerate. This would control the angular acceleration of the motor and restrain the linear acceleration from overshooting and exceeding g/12, causing the beam to topple. For each test, we played around with the correction error constant, duration of the run, and the target RPM until we found a balance of the factors that resulted in a fast run without the beam toppling.
 
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
 {% include youtube-video.html id="Zf3iwgYW0Xs" autoplay= "false"%}
 Successful Test Run
 
 ## Results
 Our final runtime would run just over 12 seconds. This is slightly different from our simulated time which is most likely due to errors in our assembly process and environmental factors which led to changes in the our code and ability to accelerate faster to account for.
-{% include image-gallery.html images="IMG_8597.png, IMG_8598.png, IMG_8599.png, IMG_8600.png, IMG_8601.png, IMG_8602.png" height="175" %}
+{% include image-gallery.html images="IMG_8597.png, IMG_8598.png, IMG_8599.png, IMG_8600.png, IMG_8601.png, IMG_8602.png" height="400" %}
 Final Prototype
