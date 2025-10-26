@@ -66,5 +66,5 @@ Successful Test Run
 
 ## Results
 Our final runtime would run just over 12 seconds. This is slightly different from our simulated time which is most likely due to errors in our assembly process and environmental factors which led to changes in the our code and ability to accelerate faster to account for.
-{% include image-gallery.html images="IMG_8597.png, IMG_8598.png, IMG_8599.png, IMG_8600.png, IMG_8601.png, IMG_8602.png" height="150" %}
+{% include image-gallery.html images="IMG_8597.png, IMG_8598.png, IMG_8599.png, IMG_8600.png, IMG_8601.png, IMG_8602.png" height="200" %}
 Final Prototype
