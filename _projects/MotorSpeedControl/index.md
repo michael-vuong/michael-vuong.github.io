@@ -6,6 +6,6 @@ description: This project involved the simulation, design, and physical implemen
 skills: 
 - skill 1
 - skill 2
-main-image: /
+main-image: /IMG_8598.png
 ---
 
