@@ -14,5 +14,6 @@ skills:
   - Technical documentation and communication
   
 
-main-image: /4bar.jpg
+main-image: /ContainerDoorCAD.png
 ---
+
