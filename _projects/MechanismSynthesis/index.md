@@ -18,7 +18,7 @@ All models were made on Math Illustrations
 ## Rocker
 The rocker was made by finding the distance between two points of the intial and final position, and creating a bar of equal distance, and rotating component of half the distance. The additional bars were parallel to the intial and final points of the rocking bar.
 {% include image-gallery.html images="Rocker.png" height="400" %}
-{% include youtube-video.html id="0wQgtpj-8jY" autoplay= "false"%} 
+{% include youtube-video.html id="0wQgtpj-8jY" autoplay= "false"%} <br>
  
 ## Fast Return Rocker
 This rocker was made similarily to the first one, but the additional bars were not parallel to the rocking bar, which causes unequal rocking motions.
