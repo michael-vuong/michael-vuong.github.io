@@ -12,5 +12,5 @@ skills:
   - CAD-based modeling and visualization
   - Analytical problem-solving and mechanical design validation
   - Technical documentation and communication
-main-image: 
+main-image: /ContainerDoorCAD.png
 ---
