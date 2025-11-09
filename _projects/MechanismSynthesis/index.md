@@ -20,15 +20,19 @@ main-image: /ContainerDoorCAD.png
 
 ## Fast Return Rocker
 {% include image-gallery.html images="RockerFastReturn.png" height="400" %}
+{% include youtube-video.html id="OAwmlHhRhN8" autoplay= "false"%}
 
 ## Two Position Complex Motion
 {% include image-gallery.html images="TwoPosition.png" height="400" %}
+{% include youtube-video.html id="CnD9sjfQou4" autoplay= "false"%}
 
 ## Two Position Complex Motion Ex. 2
 {% include image-gallery.html images="TwoPositionEx2.png" height="400" %}
+{% include youtube-video.html id="39jrc_kIY04" autoplay= "false"%}
 
 ## Container Door
 {% include image-gallery.html images="ContainerDoor.png" height="400" %}
+{% include youtube-video.html id="9vsIbTB0a54" autoplay= "false"%}
 
 ## Container Door CAD
 {% include image-gallery.html images="ContainerDoorCAD.png" height="400" %}
