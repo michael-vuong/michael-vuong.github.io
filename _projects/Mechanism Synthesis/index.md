@@ -16,10 +16,6 @@ skills:
 
 main-image: /ContainerDoorCAD.png
 ---
-
-
+Hello
 # Rocker
-{% include image-gallery.html images="Rocker.png" height="400" %}
-
-
-
+{% include image-gallery.html images="ContainerDoorCAD.png" height="400" %}
