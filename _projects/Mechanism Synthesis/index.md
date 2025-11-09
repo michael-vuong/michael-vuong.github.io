@@ -19,3 +19,7 @@ main-image: /ContainerDoorCAD.png
 Hello
 # Rocker
 {% include image-gallery.html images="ContainerDoorCAD.png" height="400" %}
+
+## Angle of the crank at maximum motor torque:
+-33.60 degrees
+{% include image-gallery.html images="angle-displacement.jpg" height="400" %}
