@@ -22,4 +22,4 @@ Hello
 
 ## Angle of the crank at maximum motor torque:
 -33.60 degrees
-{% include image-gallery.html images="angle-displacement.jpg" height="400" %}
+{% include image-gallery.html images="TwoPosition.png" height="400" %}
