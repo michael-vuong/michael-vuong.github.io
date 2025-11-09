@@ -23,7 +23,7 @@ The rocker was made by finding the distance between two points of the intial and
 ## Fast Return Rocker
 This rocker was made similarily to the first one, but the additional bars were not parallel to the rocking bar, which causes unequal rocking motions.
 {% include image-gallery.html images="RockerFastReturn.png" height="400" %}
-{% include youtube-video.html id="OAwmlHhRhN8" autoplay= "false"%}
+{% include youtube-video.html id="OAwmlHhRhN8" autoplay= "false"%}  
 
 ## Two Position Complex Motion
 The complex motion of this bar was made by using perpendicular bisectors between intial and final positions of the bar. Due to the nature of circular rotation, this technique made it so that the bar would hit both positions as it rotated.
