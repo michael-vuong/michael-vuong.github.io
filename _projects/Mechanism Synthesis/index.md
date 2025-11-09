@@ -12,14 +12,9 @@ skills:
   - CAD-based modeling and visualization
   - Analytical problem-solving and mechanical design validation
   - Technical documentation and communication
-  
-
 main-image: /ContainerDoorCAD.png
 ---
-Hello
-# Rocker
-{% include image-gallery.html images="ContainerDoorCAD.png" height="400" %}
 
-## Angle of the crank at maximum motor torque:
--33.60 degrees
-{% include image-gallery.html images="TwoPosition.png" height="400" %}
+# Rocker
+{% include image-gallery.html images="RockerFastReturn.png" height="400" %}
+This is a rocker mechanism built and 
