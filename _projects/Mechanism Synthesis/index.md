@@ -17,3 +17,20 @@ skills:
 main-image: /ContainerDoorCAD.png
 ---
 
+# Rocker
+{% include image-gallery.html images="Rocker.png" height="400" %}
+
+# Fast Return Rocker
+{% include image-gallery.html images="RockerFastReturn.png height="400" %}
+
+# Two Position Synthesis: Complex Motion
+{% include image-gallery.html images="TwoPosition.png" height="400" %}
+
+# Two Position Synthesis: Complex Motion Ex. 2
+{% include image-gallery.html images="TwoPositionEx2.png" height="400" %}
+
+# Container Door
+{% include image-gallery.html images="ContainerDoor.png" height="400" %}
+
+# Container Door CAD
+{% include image-gallery.html images="ContainerDoorCAD.png" height="400" %}
