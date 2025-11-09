@@ -23,21 +23,21 @@ The rocker was made by finding the distance between two points of the intial and
 ## Fast Return Rocker
 This rocker was made similarily to the first one, but the additional bars were not parallel to the rocking bar, which causes unequal rocking motions.
 {% include image-gallery.html images="RockerFastReturn.png" height="400" %}
-{% include youtube-video.html id="OAwmlHhRhN8" autoplay= "false"%}  
+{% include youtube-video.html id="OAwmlHhRhN8" autoplay= "false"%}  <br>
  
 ## Two Position Complex Motion
 The complex motion of this bar was made by using perpendicular bisectors between intial and final positions of the bar. Due to the nature of circular rotation, this technique made it so that the bar would hit both positions as it rotated.
 {% include image-gallery.html images="TwoPosition.png" height="400" %}
-{% include youtube-video.html id="CnD9sjfQou4" autoplay= "false"%}
+{% include youtube-video.html id="CnD9sjfQou4" autoplay= "false"%} <br>
  
 ## Two Position Complex Motion Ex. 2
 {% include image-gallery.html images="TwoPositionEx2.png" height="400" %}
-{% include youtube-video.html id="39jrc_kIY04" autoplay= "false"%} 
+{% include youtube-video.html id="39jrc_kIY04" autoplay= "false"%} <br>
  
 ## Container Door
 For this design, I needed to make the door of this container avoid hitting the edge of the container wall. To do this, I set an intermediate position between the intial and final positon of the door. I then created perpendicular bisectors between all positions points to located where I could put the pivot points. The location of the intermediate position had to be far enough so the door could clear the corner of the container.
 {% include image-gallery.html images="ContainerDoor.png" height="400" %}
-{% include youtube-video.html id="9vsIbTB0a54" autoplay= "false"%} 
+{% include youtube-video.html id="9vsIbTB0a54" autoplay= "false"%} <br>
  
 ## Container Door CAD
 To simulate real world design, I modeled the container and door on Solidworks. This showcases the usefulness of basic modeling softwares in early stage development of moving systems.
