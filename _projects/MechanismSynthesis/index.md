@@ -24,7 +24,7 @@ main-image: /ContainerDoorCAD.png
 {% include image-gallery.html images="TwoPosition.png" height="400" %}
 
 ## Two Position Complex Motion Ex. 2
-{% include image-gallery.html images="TwoPosition.png" height="400" %}
+{% include image-gallery.html images="TwoPositionEx2.png" height="400" %}
 
 ## Container Door
 {% include image-gallery.html images="ContainerDoor.png" height="400" %}
