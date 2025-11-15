@@ -14,7 +14,7 @@ skills:
   - Drill Press
 main-image: /TempDemo.jpg
 ---
-{% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid" height="400" %}
+{% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid.png" height="400" %}
 
 {% include image-gallery.html images="CADBatteryHolder.png" height="400" %}
 
