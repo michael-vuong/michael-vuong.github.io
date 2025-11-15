@@ -12,5 +12,5 @@ skills:
   - Circuits
   - Laser Cutter
   - Drill Press
-main-image: 
+main-image: /TempDemo.jpg
 ---
