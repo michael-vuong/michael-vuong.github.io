@@ -13,9 +13,14 @@ title: Michael Vuong's Engineering Portfolio # This is what shows up in the tab 
 
 # Hero Section
 name: Michael Vuong
-headline: Welcome! I am a junior majoring in mechanical engineering with a concentration in manufacturing at Boston University. I am interested in researching and implementing modern manufacturing methods to optimize production processes, reduce waste, and lower costs. Beyond analysis, I like to bring ideas into the real world through prototyping, whether it’s utilizing CAD, testing new design concepts, or refining components through hands-on iteration. This combination of process optimization and practical prototyping drives my passion for engineering and continuous improvement.
+headline: Welcome! I am a junior majoring in mechanical engineering with a concentration in manufacturing at Boston University. 
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  
+  I’m passionate about researching and applying modern manufacturing methods to optimize production processes, reduce waste, and lower costs. 
+  Beyond analysis, I enjoy bringing ideas to life through prototyping, whether I’m developing components in CAD, testing new design concepts, or refining designs through hands-on iteration. 
+  This blend of process optimization and practical prototyping fuels my interest in engineering and continuous improvement. 
+  Previously, I had the opportunity to intern at Metakosmos, where I collaborated with a talented team of engineers to enhance manufacturing and testing methods for their cutting-edge spacesuit, using principles from lean manufacturing and Six Sigma. 
+  Now I am working as a engineering ambasasador where I mentor and guide underclassmen interested in interning for international companies. 
+  I am currently open to new opportunities/internships where I can continue growing my skills and contribute to innovative engineering projects. Feel free to reach out! 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/SASEHead.jpg
