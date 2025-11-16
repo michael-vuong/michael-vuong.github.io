@@ -12,7 +12,7 @@ skills:
   - CAD-based modeling and visualization
   - Analytical problem-solving and mechanical design validation
   - Technical documentation and communication
-main-image: /ContainerDoorCAD.png
+main-image: /Thumbnail.png
 ---
 All models were made on Math Illustrations
 ## Rocker
