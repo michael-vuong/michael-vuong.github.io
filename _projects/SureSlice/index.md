@@ -1,6 +1,6 @@
 layout: post
 title: SureSlice - Automatic Food Slicer (coming soon!)
-description:  ...
+description:  Food
 skills: 
   - Arduino
   - 3D Printing
