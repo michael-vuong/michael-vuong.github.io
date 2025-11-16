@@ -12,6 +12,6 @@ skills:
   - Circuits
   - Laser Cutter
   - Drill Press
-main-image: /SureSlice.png
+main-image: /Thumbnail.png
 ---
 test
