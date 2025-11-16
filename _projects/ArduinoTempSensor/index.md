@@ -12,7 +12,7 @@ skills:
   - Circuits
   - Laser Cutter
   - Drill Press
-main-image: /TempDemo.jpg
+main-image: /Thumbnail.png
 ---
 {% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid.png" height="400" %}
 
