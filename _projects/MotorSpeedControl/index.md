@@ -10,7 +10,7 @@ skills:
 - Arduino
 main-image: /Thumbnail.png
 ---
-{% include youtube-video.html id="AqPjvd6xudc" autoplay= "false"%}
+{% include youtube-video.html id="AqPjvd6xudc" autoplay= "true"%}
 
 ## Conditions
 The first objective before building our car was to find out the maximum linear acceleration the vertical bar can experience before it starts to tip over. Using free body diagrams we found that the max acceleration for the 1 foot tall beam was g/12. Another condition that helped validate our calculations was the reaction force the front edge of the beam would have at the start and just before tipping over. We found that the reaction force should be half the weight at rest, and just above 0 before it would want to tip.
