@@ -26,11 +26,12 @@ Early Designs
 {% include image-gallery.html images="Screenshot of Linear Stage.png" height="500" %}
 CAD of First Linear Stage
 
+{% include image-gallery.html images="BallShooterSS.PNG" height="500" %}
 {% include image-gallery.html images="Prototype.PNG" height="500" %}
 
 
 
-
+{% include youtube-video.html id="MrKlsuJymK4" autoplay= "false"%}
 {% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
 {% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
 {% include youtube-video.html id="YJN7ZNlGA1I" autoplay= "false"%}
