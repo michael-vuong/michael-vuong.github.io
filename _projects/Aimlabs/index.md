@@ -27,6 +27,8 @@ I generated multiple concept sketches exploring belt-driven XY stages and compac
 Early Designs
 {% include image-gallery.html images="FirstLinearStageCAD.png" height="500" %}
 CAD of First Linear Stage
+{% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
+
 
 {% include image-gallery.html images="BallShooterSS.png" height="500" %}
 {% include image-gallery.html images="Prototype.PNG" height="500" %}
