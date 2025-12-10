@@ -20,23 +20,30 @@ main-image: /Thumbnail.png
 ---
 
 ## Conceptual Designs
-I generated multiple concept sketches exploring belt-driven XY stages and compact Z-axis designs. Using CAD and simulation, we modeled the first linear stage and evaluated manufacturability. Early design reviews focused on kinematic layout, motor placement, frame stiffness, and ease of assembly/disassembly.
+I generated multiple concept sketches exploring belt-driven XY stages and compact Z-axis designs. Using CAD and simulation, I modeled the first linear stage and evaluated manufacturability. Early design reviews focused on kinematic layout, motor placement, frame stiffness, and ease of assembly/disassembly.
 <div style="text-align: center;">
   {% include image-gallery.html images="Sketches.png" height="500" %}
 </div>
 Early Designs
 {% include image-gallery.html images="FirstLinearStageCAD.png" height="500" %}
 CAD of First Linear Stage
+
+### Actual Linear Stage Testing
 {% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
 
+## Ball Launcher
+For the ball-launching end effector I initially tested a spring-based launcher, but inconsistent preload and alignment made the shots unreliable. Switching to a rubber-band design provided smoother force application, easier tuning, and more consistent launch performance with simpler mechanics. I used a rack-and-pinion mechanism with a partial-tooth gear to draw back and fire the launcher.
 
 {% include image-gallery.html images="BallShooterSS.png" height="500" %}
+{% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
+
+
 {% include image-gallery.html images="Prototype.PNG" height="500" %}
 
 
 
 {% include youtube-video.html id="MrKlsuJymK4" autoplay= "false"%}
 {% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
-{% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
+
 {% include youtube-video.html id="YJN7ZNlGA1I" autoplay= "false"%}
 {% include youtube-video.html id="tA-7GpVwnq8" autoplay= "false"%}
