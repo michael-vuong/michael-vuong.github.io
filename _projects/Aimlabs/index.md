@@ -19,8 +19,13 @@ skills:
 main-image: /Thumbnail.png
 ---
 
+## Conceptual Designs
+I generated multiple concept sketches exploring belt-driven XY stages and compact Z-axis designs. Using CAD and simulation, we modeled the first linear stage and evaluated manufacturability. Early design reviews focused on kinematic layout, motor placement, frame stiffness, and ease of assembly/disassembly.
 {% include image-gallery.html images="Sketches.png" height="500" %}
+Early Designs
 {% include image-gallery.html images="Screenshot of Linear Stage.png" height="500" %}
+CAD of First Linear Stage
+
 {% include image-gallery.html images="Prototype.PNG" height="500" %}
 
 
