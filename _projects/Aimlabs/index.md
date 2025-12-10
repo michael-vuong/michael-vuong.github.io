@@ -1,12 +1,21 @@
 ---
 layout: post
 title: Aimlabs
-description: This project involved the simulation, design, and physical implementation of a system capable of transporting a 1-foot-long vertical prismatic bar across a variable horizontal distance (5–10 ft) and back, without toppling. The system needed to complete the motion in the shortest possible time, while maintaining the bar’s dynamic stability through effective motor speed control. The assignment combined computational simulation (individual) and physical prototyping (team-based competition), applying principles of multibody dynamics, control systems, and mechanical design.
+description: Designed and prototyped a backpack-portable 2.5-DOF Cartesian motion system that acts as a carnival type shooter game. Integrates custom mechanical components, 8020 extrusion linear stages, stepper-based actuation, and embedded control. Developed 3D-printed parts, implemented prismatic and revolute joint embodiments, and built a functional prototype with a custom end effector to meet performance, robustness, and assembly constraints.
 
 skills: 
-- Solidworks
-- Motion Analysis
-- Laser Cutting
-- Arduino
+- CAD modeling (SolidWorks)
+- Mechanical design for manufacturability (DFM)
+- 3D printing fabrication
+- Motion system design (linear stages, prismatic joints, belt drives)
+- Stepper motor control & tuning
+- Embedded systems integration (motor drivers)
+- Prototyping with 8020 aluminum extrusion
+- Mechanical assembly & tolerance design
+- Sensing & actuation integration
+- Accuracy, repeatability, and backlash reduction
+- Failure mode identification & troubleshooting
+- Rapid iteration and design optimization
+  
 main-image: /Thumbnail.png
 ---
