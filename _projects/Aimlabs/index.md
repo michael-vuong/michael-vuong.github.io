@@ -19,6 +19,13 @@ skills:
 main-image: /Thumbnail.png
 ---
 
+{% include image-gallery.html images="Sketches.png" height="500" %}
+{% include image-gallery.html images="Screenshot of Linear Stage.png" height="500" %}
+{% include image-gallery.html images="Prototype.PNG" height="500" %}
+
+
+
+
 {% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
 {% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
 {% include youtube-video.html id="YJN7ZNlGA1I" autoplay= "false"%}
