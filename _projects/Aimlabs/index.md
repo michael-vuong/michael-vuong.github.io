@@ -18,3 +18,8 @@ skills:
   
 main-image: /Thumbnail.png
 ---
+
+{% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
+{% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
+{% include youtube-video.html id="YJN7ZNlGA1I" autoplay= "false"%}
+{% include youtube-video.html id="tA-7GpVwnq8" autoplay= "false"%}
