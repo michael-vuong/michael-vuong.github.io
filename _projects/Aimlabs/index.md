@@ -38,12 +38,12 @@ For the ball-launching end effector I initially tested a spring-based launcher, 
 {% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
 
 
+## Assembly and Testing
+I assembled all three linear stages and integrated the ball-launching end effector into the full Cartesian system. Each axis was aligned, tensioned, and tested to ensure smooth travel and correct orientation. Once the mechanical subsystem was complete, I connected the electronics and loaded the control code, which programmed the system to move the launcher to a random position within the workspace and fire a ball.
 {% include image-gallery.html images="Prototype.PNG" height="500" %}
 
-
-
 {% include youtube-video.html id="MrKlsuJymK4" autoplay= "false"%}
-{% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
+
 
 {% include youtube-video.html id="YJN7ZNlGA1I" autoplay= "false"%}
 {% include youtube-video.html id="tA-7GpVwnq8" autoplay= "false"%}
