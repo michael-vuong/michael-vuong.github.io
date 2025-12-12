@@ -649,11 +649,7 @@ footer p {
     align-self: flex-start;
   
 }
- .center-img img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
+
 
 .post-view .content  a {
     color: #3498db;
