@@ -732,6 +732,10 @@ footer p {
     height: 100%;
 }
 
+.youtube-container {
+    display: flex;
+    justify-content: center;
+}
 
 
 
