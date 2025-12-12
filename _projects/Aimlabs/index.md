@@ -21,29 +21,34 @@ main-image: /Thumbnail.png
 
 ## Conceptual Designs
 I generated multiple concept sketches exploring belt-driven XY stages and compact Z-axis designs. Using CAD and simulation, I modeled the first linear stage and evaluated manufacturability. Early design reviews focused on kinematic layout, motor placement, frame stiffness, and ease of assembly/disassembly.
-<div style="text-align: center;">
   {% include image-gallery.html images="Sketches.png" height="500" %}
-</div>
+
 Early Designs
 {% include image-gallery.html images="FirstLinearStageCAD.png" height="500" %}
 CAD of First Linear Stage
-
-### Actual Linear Stage Testing
 {% include youtube-video.html id="CbORn8VtayM" autoplay= "false"%}
+Actual Linear Stage Testing
 
 ## Ball Launcher
 For the ball-launching end effector I initially tested a spring-based launcher, but inconsistent preload and alignment made the shots unreliable. Switching to a rubber-band design provided smoother force application, easier tuning, and more consistent launch performance with simpler mechanics. I used a rack-and-pinion mechanism with a partial-tooth gear to draw back and fire the launcher.
 
 {% include image-gallery.html images="BallShooterSS.png" height="500" %}
+CAD of Ball Launcher
 {% include youtube-video.html id="sr1cJBNBgoY" autoplay= "false"%}
+Ball Launcher Testing
 
 
 ## Assembly and Testing
-I assembled all three linear stages and integrated the ball-launching end effector into the full Cartesian system. Each axis was aligned, tensioned, and tested to ensure smooth travel and correct orientation. Once the mechanical subsystem was complete, I connected the electronics and loaded the control code, which programmed the system to move the launcher to a random position within the workspace and fire a ball.
+I assembled all three linear stages and integrated the ball-launching end effector into the full Cartesian system. Each axis was aligned, tensioned, and tested to ensure smooth travel and correct orientation. Once the mechanical subsystem was complete, I connected the electronics and loaded the control code, which programmed the system to move the launcher to a random position within the workspace and fire a ball. This will then repeat two more times.
 {% include image-gallery.html images="Prototype.PNG" height="500" %}
+Fully Assembled Prototype
 
 {% include youtube-video.html id="MrKlsuJymK4" autoplay= "false"%}
+All Degrees of Movement
 
-
+## Game Time!
+We presented the completed prototype in class, demonstrating full 2.5-DOF motion, task-specific operation of the end effector, and rapid assembly/disassembly. The system satisfied requirements for portability, functionality, robustness, and design originality. For the game, players are given 3 chances to shoot and hit the ball out of the air. If they can hit the ball they win!
 {% include youtube-video.html id="YJN7ZNlGA1I" autoplay= "false"%}
+Professor Playing
 {% include youtube-video.html id="tA-7GpVwnq8" autoplay= "false"%}
+Winner!
