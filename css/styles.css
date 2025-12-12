@@ -949,3 +949,10 @@ footer p {
       
 }
 
+/* Center images inside project posts */
+.post-view .content img,
+.post-view .content .image-gallery img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
