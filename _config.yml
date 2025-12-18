@@ -45,41 +45,52 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: Software
+  - category: Manufacturing and Production
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Python
-    - MATLAB
-    - MS Office
-    - Google Suite
-  - category: Manufacturing
-    tools:
-    - CNC Milling
-    - Soldering
-    - 3D Printing 
+    - CNC Machining
+    - Additive Manufacturing
     - Laser Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - Injection Molding 
+    - Sheet Metal Fabrication
+    - Joining Methods
+    - Welding
+    - Assembly Automation
+    - Universal Robots
+    - DFM
+    - DFA
+  - category: Design and Analysis
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: Manufacturing
+    - Solidworks
+    - OnShape
+    - Creo
+    - Fusion 360
+    - FEA
+    - Tolerance Analysis
+    - Design Reviews
+  - category: Quality and Validation
     tools:
-    - CNC Mill
-    - Soldering
-    - 3D Printing 
-  - category: Problem Solving / Risk Management
+    - SPC
+    - Process Capability
+    - Root Cause Analysis
+    - DFMEA PFMEA
+    - MRL Assessment
+    - TRL Testing
+    - Test Planning
+  - category: Manufacturing Strategy and Cost
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
-
+    - Cost Modeling
+    - Cycle Time
+    - Yield Analysis
+    - Waste Reduction
+    - Production Scaling
+  - category: Automation and Communication
+    tools:
+    - Manufacturing Automation
+    - Sensors Actuators
+    - PLC Basics
+    - Microcontrollers
+    - Vision Inspection
+    - Technical Documentation
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 formspree-key:   https://formspree.io/f/xzzakanl
