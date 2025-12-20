@@ -52,5 +52,3 @@ We presented the completed prototype in class, demonstrating full 2.5-DOF motion
 Professor Playing
 {% include youtube-video.html id="tA-7GpVwnq8" autoplay= "false"%}
 Winner!
-
-/assets/videos/lidvid.mov
