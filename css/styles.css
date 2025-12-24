@@ -965,6 +965,7 @@ footer p {
 
 .work-experience-section {
   max-width: 700px;            /* Adjust for your page width preference */
+  margin: 40px auto 0 auto;
   padding: 0 16px;
   text-align: center;
   width: 100%;                 /* Ensures container doesn't overflow */
@@ -1086,4 +1087,3 @@ footer p {
     font-size: 1.3em;
   }
 }
-
