@@ -1013,7 +1013,7 @@ body {
 }
 
 .card {
-  perspective: 900px;
+  perspective: 950px;
   aspect-ratio: 1/1;
   width: 100%;
   max-width: 170px;
