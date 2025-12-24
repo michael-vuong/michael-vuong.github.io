@@ -961,55 +961,31 @@ footer p {
     margin-right: auto;
 }
 
+.work-experience-section {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
 .experience-grid {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  justify-content: center;
+  justify-items: center;
 }
+
 .card {
   perspective: 900px;
   aspect-ratio: 1/1;
   width: 100%;
-  max-width: 150px;
+  max-width: 220px;
   min-width: 0;
   cursor: pointer;
-  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s;
-}
-.card:hover {
-  transform: scale(1.12) translateY(-4px);
-  z-index: 2;
-}
-.card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s cubic-bezier(0.4,2,0.2,1);
-  transform-style: preserve-3d;
-}
-.card-front, .card-back {
-  position: absolute;
-  width: 100%;height: 100%;
-  backface-visibility: hidden;
   border-radius: 16px;
-  overflow: hidden;
-}
-.card-front {
-  z-index: 2;
-}
-.card-front img {
-  width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; background: #eee;
-}
-.card-back {
-  z-index: 1;
-  background: rgba(0,0,0,0.92);
-  color: #fff;
-  transform: rotateY(180deg);
-  padding: 16px 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.card.flipped .card-inner {
-  transform: rotateY(180deg);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+  background: none;
 }
