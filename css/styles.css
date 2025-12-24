@@ -979,16 +979,13 @@ footer p {
   color: #294;
 }
 
-/* --- Two squares per row, always centered --- */
 .experience-grid {
-  display: grid;
-  gap: 24px;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  justify-items: center;
-  width: 100%;                 /* Never exceeds section width */
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;  /* Center the items horizontally */
+  gap: 32px;                /* Space between squares */
+  margin-bottom: 24px;
 }
+
 
 .card {
   perspective: 900px;
