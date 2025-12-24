@@ -980,7 +980,7 @@ footer p {
 .experience-grid {
   display: flex;
   justify-content: center;
-  gap: 60px;          /* Larger gap between squares! */
+  gap: 75px;          /* Larger gap between squares! */
   margin-bottom: 24px;
 }
 
@@ -989,7 +989,7 @@ footer p {
   perspective: 1000px;
   aspect-ratio: 1/1;
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   min-width: 0;
   cursor: pointer;
   border-radius: 16px;
@@ -1004,13 +1004,6 @@ footer p {
   transform: scale(1.08) translateY(-2px);
   z-index: 2;
   border-color: var(--highlight-color); /* Accent on hover */
-}
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;    /* or use 'contain', see below */
-  display: block;
-  border-radius: inherit; /* if you want rounded corners to match the card */
 }
 
 /* FLIP PANEL */
@@ -1045,7 +1038,9 @@ footer p {
   object-position: center;
   display: block;
   background: var(--background-color); /* matches portfolio section bg */
+  border-radius: inherit; /* if you want rounded corners to match the card */
 }
+
 
 /* BACK PANEL - matches theme */
 .card-back {
