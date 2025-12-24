@@ -962,11 +962,9 @@ footer p {
 }
 
 .work-experience-section {
-  max-width: 900px;
-  margin: 40px auto 0 auto;
-  padding: 0 20px;
+  margin-top: 40px;
+  padding: 0;
   background: var(--background-color);
-  /* text-align: center; */  /* Remove for left alignment */
 }
 
 .work-experience-section h2 {
