@@ -989,7 +989,21 @@ body {
   color: #294;
 }
 
-/* ------ EXPERIENCE GRID (2 per row) ------ */
+/* --- Work Experience Grid Only --- */
+.work-experience-section {
+  max-width: 950px;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.work-experience-section h2 {
+  margin-bottom: 28px;
+  font-size: 2.1em;
+  letter-spacing: 0.03em;
+  color: #294;
+}
+
 .experience-grid {
   display: grid;
   gap: 24px;
@@ -998,17 +1012,16 @@ body {
   justify-items: center;
 }
 
-/* Flip card style */
 .card {
   perspective: 900px;
   aspect-ratio: 1/1;
   width: 100%;
-  max-width: 100px;   /* Adjust for size */
+  max-width: 170px;
   min-width: 0;
   cursor: pointer;
   border-radius: 16px;
-  transition: 
-    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), 
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 0.3s;
   box-shadow: 0 8px 22px rgba(0,0,0,0.08);
   background: none;
@@ -1078,7 +1091,6 @@ body {
   padding: 0;
 }
 
-/* Make two columns become one on small screens */
 @media (max-width: 600px) {
   .experience-grid {
     grid-template-columns: 1fr;
