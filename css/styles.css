@@ -991,7 +991,7 @@ footer p {
   perspective: 900px;
   aspect-ratio: 1/1;
   width: 100%;
-  max-width: 170px;            /* Choose 150-180px for preferred size */
+  max-width: 500px;            /* Choose 150-180px for preferred size */
   min-width: 0;
   cursor: pointer;
   border-radius: 16px;
