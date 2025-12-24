@@ -989,7 +989,7 @@ footer p {
   perspective: 1000px;
   aspect-ratio: 1/1;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   min-width: 0;
   cursor: pointer;
   border-radius: 16px;
