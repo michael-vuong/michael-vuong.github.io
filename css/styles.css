@@ -1036,7 +1036,7 @@ footer p {
   object-fit: cover;
   object-position: center;
   display: block;
-  background: var(--background-color); /* matches portfolio section bg */
+  background: #fff;
   border-radius: inherit; /* if you want rounded corners to match the card */
 }
 
