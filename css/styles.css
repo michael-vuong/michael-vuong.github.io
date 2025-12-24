@@ -980,15 +980,16 @@ footer p {
 .experience-grid {
   display: flex;
   justify-content: center;
-  gap: 56px;          /* Larger gap between squares! */
+  gap: 60px;          /* Larger gap between squares! */
   margin-bottom: 24px;
 }
 
 
 .card {
+  perspective: 1000px;
   aspect-ratio: 1/1;
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
   min-width: 0;
   cursor: pointer;
   border-radius: 16px;
