@@ -962,29 +962,30 @@ footer p {
 }
 
 .work-experience-section {
-  max-width: 700px;
+  max-width: 900px;
   margin: 40px auto 0 auto;
-  padding: 0 16px;
-  text-align: center;
-  width: 100%;
-  box-sizing: border-box;
-  background: var(--background-color); /* Use global bg */
+  padding: 0 20px;
+  background: var(--background-color);
+  /* text-align: center; */  /* Remove for left alignment */
 }
 
 .work-experience-section h2 {
-  margin-bottom: 28px;
+  text-align: left;
+  margin-left: 0;
+  color: var(--text-color);   /* Black title */
   font-size: 2.1em;
+  font-weight: bold;
+  margin-bottom: 28px;
   letter-spacing: 0.03em;
-  color: var(--highlight-color); /* Use your portfolio highlight */
 }
 
-/* CARD & GRID */
 .experience-grid {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 56px;          /* Larger gap between squares! */
   margin-bottom: 24px;
 }
+
 
 .card {
   perspective: 900px;
