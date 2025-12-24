@@ -1005,6 +1005,13 @@ footer p {
   z-index: 2;
   border-color: var(--highlight-color); /* Accent on hover */
 }
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* or use 'contain', see below */
+  display: block;
+  border-radius: inherit; /* if you want rounded corners to match the card */
+}
 
 /* FLIP PANEL */
 .card-inner {
