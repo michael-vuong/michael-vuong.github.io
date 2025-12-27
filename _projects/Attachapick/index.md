@@ -28,7 +28,7 @@ main-image: /Thumbnail.png
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
   <!-- YouTube Video -->
   <div style="flex: 1; min-width: 600px;">
-    {% include youtube-video.html id="tXSOmiSPoic" width="600px" %}
+    {% include youtube-video.html id="tXSOmiSPoic" width="650px" %}
   </div>
   
   <!-- Bodymilling Image -->
@@ -40,7 +40,7 @@ main-image: /Thumbnail.png
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
   <!-- YouTube Video -->
   <div style="flex: 1; min-width: 600px;">
-    {% include youtube-video.html id="wWfKuOGjVSA" width="600px" %}
+    {% include youtube-video.html id="wWfKuOGjVSA" width="650px" %}
   </div>
   
   <!-- Bodymilling Image -->
