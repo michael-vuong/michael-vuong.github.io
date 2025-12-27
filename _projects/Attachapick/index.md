@@ -19,3 +19,14 @@ skills:
   
 main-image: /Thumbnail.png
 ---
+
+{% include image-gallery.html images="AssemLabeled.png" height="500" %}
+{% include image-gallery.html images="BothLabeled.png" height="500" %}
+{% include image-gallery.html images="BodyMilling.png" height="500" %}
+{% include image-gallery.html images="LidMilling.png" height="500" %}
+{% include image-gallery.html images="CADAssem.png" height="500" %}
+{% include image-gallery.html images="CADBody.png" height="500" %}
+{% include image-gallery.html images="CADLid.png" height="500" %}
+{% include image-gallery.html images="DesignIterations.png" height="500" %}
+{% include image-gallery.html images="SharkCapo.png" height="500" %}
+{% include image-gallery.html images="WithPics.png" height="500" %}
