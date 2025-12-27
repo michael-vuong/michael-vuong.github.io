@@ -27,13 +27,13 @@ main-image: /Thumbnail.png
 
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
   <!-- YouTube Video -->
-  <div style="flex: 1; min-width: 300px;">
-    {% include youtube-video.html id="txSO3p03crY" width="400px" %}
+  <div style="flex: 1; min-width: 500px;">
+    {% include youtube-video.html id="tXSOmiSPoic" width="500px" %}
   </div>
   
   <!-- Bodymilling Image -->
-  <div style="flex: 1; min-width: 300px;">
-    <img src="assets/images/bodymilling.png" alt="Body Milling" style="max-width:100%; height:auto;">
+  <div style="flex: 1; min-width: 500px;">
+    <img src="assets/images/BodyMilling.png" alt="Body Milling" style="max-width:100%; height:auto;">
   </div>
 </div>
 
