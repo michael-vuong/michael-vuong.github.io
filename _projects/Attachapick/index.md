@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Attachapick
-description: Designed and prototyped a backpack-portable 2.5-DOF Cartesian motion system that acts as a carnival type shooter game. Integrates custom mechanical components, 8020 extrusion linear stages, stepper-based actuation, and embedded control. Developed 3D-printed parts, implemented prismatic and revolute joint embodiments, and built a functional prototype with a custom end effector to meet performance, robustness, and assembly constraints.
+date: 2025-10-15
+description: Attachapick is a portable guitar pick storage system that integrates with a standard capo, allowing musicians to securely store and quickly access picks while playing. It features a CNC-milled HDPE body with precision slots for reliable retention and easy removal, paired with a removable polycarbonate press-fit lid for bulk loading and jam prevention.
+The design was optimized for automated manufacturing, accounting for machining and robotic tolerances and utilizing HAAS CNC mini mills, UR5 robotic handling, conveyor transport, and robotic assembly for scalable production.
 
 skills: 
 - SolidWorks
