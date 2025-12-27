@@ -6,16 +6,16 @@ description: Attachapick is a portable guitar pick storage system that integrate
 
 skills: 
 - SolidWorks
-- DFM
-- 3D printing 
-- Motion system design
-- Stepper motor control & tuning
-- Embedded systems integration
-- Prototyping
-- Mechanical assembly & tolerance design
-- Sensing & actuation integration
-- Failure mode identification & troubleshooting
-- Rapid iteration and design optimization
+- Fusion360
+- CNC Milling
+- Robotics
+- PLC
+- CIM
+- SPC
+- Vision Systems
+- MES
+- Manufacturing Automation
+- Lean Manufacturing
   
 main-image: /Thumbnail.png
 ---
