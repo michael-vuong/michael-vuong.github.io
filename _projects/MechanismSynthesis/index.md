@@ -6,9 +6,9 @@ description: I completed a series of mechanism synthesis exercises focused on th
 skills:
   - Solidworks
   - Math Illustrations
-  - Four-bar Linkage Design
-  - Kinematic and Geometric Analysis
-  - Quick-return Mechanism Optimization
+  - Four-bar Linkage
+  - Kinematic/Geometric Analysis
+  - Quick-return Mechanism
   - Technical Documentation
 main-image: /Thumbnail.png
 ---
