@@ -735,6 +735,9 @@ footer p {
 .youtube-container {
     display: flex;
     justify-content: center;
+    align-items: center; /* optional, for vertical alignment */
+    width: 100%;
+    margin: 0 auto;  /* optional: helps constrain if you set a max-width */
 }
 
 
