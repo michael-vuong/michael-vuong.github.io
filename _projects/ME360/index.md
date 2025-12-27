@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title: 4 Bar Mechanism Analysis
 description: This project showcases assembling and analysing the motion of a 4 bar mechanism
 skills:
