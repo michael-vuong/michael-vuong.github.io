@@ -25,8 +25,8 @@ main-image: /Thumbnail.png
   Attachapick Automated Assembly
 </div>
 
-{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" height="1200px" width="650px"%}
-{% include youtube-video.html id="wWfKuOGjVSA" autoplay= "false" height="1300px" width="700px"%}
+{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" height="1200px" width="350px"%}
+{% include youtube-video.html id="wWfKuOGjVSA" autoplay= "false" height="1700px" width="700px"%}
 
 
 {% include image-gallery.html images="BodyLabeled.png" height="500" %}
