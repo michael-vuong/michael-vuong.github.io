@@ -25,7 +25,6 @@ main-image: /Thumbnail.png
   Automated Assembly Video
 </div>
 
-{% include youtube-video.html id="b_yYclsaWBs" autoplay="true" width="1000px" %}
 
 {% include image-gallery.html images="AssemLabeled.png" height="500" %}
 {% include image-gallery.html images="BothLabeled.png" height="500" %}
