@@ -33,14 +33,25 @@ main-image: /Thumbnail.png
   
   <!-- Bodymilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    {% include image-gallery.html images="BodyMilling.png" height="100" %}
+    {% include image-gallery.html images="BodyMilling.png" height="450" %}
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
+  <!-- YouTube Video -->
+  <div style="flex: 1; min-width: 500px;">
+    {% include youtube-video.html id="wWfKuOGjVSA" width="500px" %}
+  </div>
+  
+  <!-- Bodymilling Image -->
+  <div style="flex: 1; min-width: 500px;">
+    {% include image-gallery.html images="LidMilling.png" height="450" %}
   </div>
 </div>
 
 
-{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" width="500px"%} {% include image-gallery.html images="BodyMilling.png" height="100" %}
 
-{% include youtube-video.html id="wWfKuOGjVSA" autoplay= "false" width="500px"%}
+{% include youtube-video.html id="" autoplay= "false" width="500px"%}
 
 
 {% include image-gallery.html images="BodyLabeled.png" height="500" %}
