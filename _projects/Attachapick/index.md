@@ -38,7 +38,8 @@ main-image: /Thumbnail.png
 </div>
 
 
-{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" width="500px"%}
+{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" width="500px"%} {% include image-gallery.html images="BodyMilling.png" height="500" %}
+
 {% include youtube-video.html id="wWfKuOGjVSA" autoplay= "false" width="500px"%}
 
 
