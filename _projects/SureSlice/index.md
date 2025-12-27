@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2024-12-14
 title: SureSlice - Automatic Food Slicer (coming soon!)
 description:  Food
 skills: 
