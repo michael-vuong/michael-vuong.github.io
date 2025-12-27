@@ -33,7 +33,7 @@ main-image: /Thumbnail.png
   
   <!-- Bodymilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    <img src="assets/images/BodyMilling.png" alt="Body Milling" style="max-width:100%; height:auto;">
+    <img src="_projects/Attachapick/BodyMilling.png" alt="Body Milling" style="max-width:100%; height:auto;">
   </div>
 </div>
 
