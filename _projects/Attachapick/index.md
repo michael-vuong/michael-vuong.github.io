@@ -33,8 +33,11 @@ main-image: /Thumbnail.png
   
   <!-- Bodymilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    {% include image-gallery.html images="BodyMilling.png" height="400" %}
+    {% include image-gallery.html images="BodyMilling.png" height="350" %}
   </div>
+</div>
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Body CAM & Operation Order
 </div>
 
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
@@ -43,12 +46,14 @@ main-image: /Thumbnail.png
     {% include youtube-video.html id="wWfKuOGjVSA" width="650px" %}
   </div>
   
-  <!-- Bodymilling Image -->
+  <!-- Lidmilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    {% include image-gallery.html images="LidMilling.png" height="400" %}
+    {% include image-gallery.html images="LidMilling.png" height="350" %}
   </div>
 </div>
-
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Lid CAM & Operation Order
+</div>
 
 
 {% include image-gallery.html images="BodyLabeled.png" height="500" %}
