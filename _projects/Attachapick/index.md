@@ -1,1 +1,20 @@
+---
+layout: post
+title: Attachapick
+description: Designed and prototyped a backpack-portable 2.5-DOF Cartesian motion system that acts as a carnival type shooter game. Integrates custom mechanical components, 8020 extrusion linear stages, stepper-based actuation, and embedded control. Developed 3D-printed parts, implemented prismatic and revolute joint embodiments, and built a functional prototype with a custom end effector to meet performance, robustness, and assembly constraints.
 
+skills: 
+- SolidWorks
+- DFM
+- 3D printing 
+- Motion system design
+- Stepper motor control & tuning
+- Embedded systems integration
+- Prototyping
+- Mechanical assembly & tolerance design
+- Sensing & actuation integration
+- Failure mode identification & troubleshooting
+- Rapid iteration and design optimization
+  
+main-image: /Thumbnail.png
+---
