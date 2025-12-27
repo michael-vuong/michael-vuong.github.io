@@ -61,6 +61,7 @@ main-image: /Thumbnail.png
 {% include image-gallery.html images="BodyLabeled.png" height="500" %}
 {% include image-gallery.html images="LidLabeled.png" height="500" %}
 {% include image-gallery.html images="AssemLabeled.png" height="500" %}
+{% include image-gallery.html images="lidvid.gif" height="500" %}
 
 {% include image-gallery.html images="CADAssem.png" height="500" %}
 {% include image-gallery.html images="CADBody.png" height="500" %}
