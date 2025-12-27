@@ -6,6 +6,7 @@ description:  For this project, I designed and simulated a kinematic linkage sys
 skills: 
 - Complex Motion
 - Solidworks
+- Linkage System
 main-image: /SharkThumbnail.png 
 ---
 
