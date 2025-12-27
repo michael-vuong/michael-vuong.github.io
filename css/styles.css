@@ -901,7 +901,12 @@ footer p {
     .video-container {
         margin:0 auto;
     }
-    
+    .video-center {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* optional, for vertical centering if container height > video height */
+    width: 100%;
+}
 }
 
 
