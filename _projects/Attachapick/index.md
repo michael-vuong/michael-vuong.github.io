@@ -19,6 +19,8 @@ skills:
   
 main-image: /Thumbnail.png
 ---
+{% include youtube-video.html id="b_yYclsaWBs" autoplay= "true"%}
+
 
 {% include image-gallery.html images="AssemLabeled.png" height="500" %}
 {% include image-gallery.html images="BothLabeled.png" height="500" %}
