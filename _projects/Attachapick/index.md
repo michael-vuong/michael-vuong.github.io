@@ -18,6 +18,7 @@ skills:
 - Lean Manufacturing
   
 main-image: /Thumbnail.png
+---
 
 ---
 
