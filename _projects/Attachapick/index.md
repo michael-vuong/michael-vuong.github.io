@@ -19,8 +19,13 @@ skills:
   
 main-image: /Thumbnail.png
 ---
-{% include youtube-video.html id="b_yYclsaWBs" autoplay= "true" width="1000px"%}
 
+{% include youtube-video.html id="b_yYclsaWBs" autoplay= "true" width="1000px"%}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Automated Assembly Video
+</div>
+
+{% include youtube-video.html id="b_yYclsaWBs" autoplay="true" width="1000px" %}
 
 {% include image-gallery.html images="AssemLabeled.png" height="500" %}
 {% include image-gallery.html images="BothLabeled.png" height="500" %}
