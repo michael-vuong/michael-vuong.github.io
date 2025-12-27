@@ -27,38 +27,34 @@ main-image: /Thumbnail.png
 
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
   <!-- YouTube Video -->
-  <div style="flex: 1; min-width: 500px;">
-    {% include youtube-video.html id="tXSOmiSPoic" width="500px" %}
+  <div style="flex: 1; min-width: 600px;">
+    {% include youtube-video.html id="tXSOmiSPoic" width="600px" %}
   </div>
   
   <!-- Bodymilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    {% include image-gallery.html images="BodyMilling.png" height="450" %}
+    {% include image-gallery.html images="BodyMilling.png" height="400" %}
   </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
   <!-- YouTube Video -->
-  <div style="flex: 1; min-width: 500px;">
-    {% include youtube-video.html id="wWfKuOGjVSA" width="500px" %}
+  <div style="flex: 1; min-width: 600px;">
+    {% include youtube-video.html id="wWfKuOGjVSA" width="600px" %}
   </div>
   
   <!-- Bodymilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    {% include image-gallery.html images="LidMilling.png" height="450" %}
+    {% include image-gallery.html images="LidMilling.png" height="400" %}
   </div>
 </div>
 
 
 
-{% include youtube-video.html id="" autoplay= "false" width="500px"%}
-
-
 {% include image-gallery.html images="BodyLabeled.png" height="500" %}
 {% include image-gallery.html images="LidLabeled.png" height="500" %}
 {% include image-gallery.html images="AssemLabeled.png" height="500" %}
-{% include image-gallery.html images="BodyMilling.png" height="500" %}
-{% include image-gallery.html images="LidMilling.png" height="500" %}
+
 {% include image-gallery.html images="CADAssem.png" height="500" %}
 {% include image-gallery.html images="CADBody.png" height="500" %}
 {% include image-gallery.html images="CADLid.png" height="500" %}
