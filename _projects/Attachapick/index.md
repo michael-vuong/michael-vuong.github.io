@@ -33,12 +33,12 @@ main-image: /Thumbnail.png
   
   <!-- Bodymilling Image -->
   <div style="flex: 1; min-width: 500px;">
-    <img src="_projects/Attachapick/BodyMilling.png" alt="Body Milling" style="max-width:100%; height:auto;">
+    {% include image-gallery.html images="BodyMilling.png" height="100" %}
   </div>
 </div>
 
 
-{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" width="500px"%} {% include image-gallery.html images="BodyMilling.png" height="500" %}
+{% include youtube-video.html id="tXSOmiSPoic" autoplay= "false" width="500px"%} {% include image-gallery.html images="BodyMilling.png" height="100" %}
 
 {% include youtube-video.html id="wWfKuOGjVSA" autoplay= "false" width="500px"%}
 
