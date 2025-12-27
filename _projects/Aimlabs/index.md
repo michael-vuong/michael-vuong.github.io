@@ -6,16 +6,13 @@ description: Designed and prototyped a backpack-portable 2.5-DOF Cartesian motio
 
 skills: 
 - SolidWorks
-- DFM
 - 3D printing 
-- Motion system design
-- Stepper motor control & tuning
-- Embedded systems integration
+- Stepper Motor Control 
+- Embedded Systems
 - Prototyping
-- Mechanical assembly & tolerance design
-- Sensing & actuation integration
-- Failure mode identification & troubleshooting
-- Rapid iteration and design optimization
+- Tolerances
+- Troubleshooting
+- Rapid Iteration
   
 main-image: /Thumbnail.png
 ---
