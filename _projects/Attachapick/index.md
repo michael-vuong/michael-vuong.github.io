@@ -21,6 +21,11 @@ main-image: /Thumbnail.png
 ---
 
 ---
+# Objective
+Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The process should aim to optimize manufacturing strategies, integrate computer-controlled processes, and apply lean principles to produce a functional, cost-efficient product that positively impacts society.
+{% include image-gallery.html images="ADML.png" height="400" %}
+
+
 
 {% include youtube-video.html id="b_yYclsaWBs" autoplay= "true" width="1000px"%}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
