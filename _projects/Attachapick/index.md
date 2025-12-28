@@ -40,7 +40,7 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 • Designed precision slots for pick retention, and a bulk-load lid for rapid access and jam prevention.<br>
 • CAD modeled both parts, iterating for fit, manufacturability, and robotic assembly requirements.<br>
 • Compensated for CNC and robot tolerances (±0.0005 in. for mill, ±0.009 in. for robots) in critical dimensions and mating features.<br>
-• Included press-fit/polycarbonate shelf features to enable consistent robotic assembly.<br>
+• Included press-fit/chamfer features to enable consistent robotic assembly.<br>
 
 ## Design Iterations
 {% include image-gallery.html images="DesignIterations.png" height="500" %}
@@ -49,20 +49,20 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 {% include image-gallery.html images="CADBody.png, CADLid.png, CADAssemLabeled.png" height="300" %}
 
 # CNC Milling & Manufacturing Strategy
-Selected HDPE and polycarbonate stock sizes from ADML inventory.
-Utilized CAM software to generate toolpaths, accounting for vise jaw constraints and safe wall thicknesses.
-Developed a manufacturing sequence involving robot pick-and-place, conveyor transport, CNC machining, and automated assembly.
-Documented each step with annotated screenshots from CAM and CAD.
+• Selected HDPE and polycarbonate stock sizes from ADML inventory.<br>
+• Utilized CAM software (Fusion360) to generate toolpaths, accounting for vise jaw constraints and safe wall thicknesses.<br>
+• Developed a manufacturing sequence involving robot pick-and-place, conveyor transport, CNC machining, and automated assembly.<br>
 
 {% include image-gallery.html images="bodyvid.gif, BodyMilling.png" height="350" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Body CAM & Operation Order
 </div>
+<br>
 {% include image-gallery.html images="lidvid.gif, LidMilling.png" height="350" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Lid CAM & Operation Order
 </div>
-
+<br>
 
 
 {% include image-gallery.html images="WithPics.png" height="500" %}
