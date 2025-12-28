@@ -30,7 +30,7 @@ main-image: /Thumbnail.png
 <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap;">
   <!-- YouTube Video -->
   <div style="flex: 1; min-width: 600px;">
-    {% include youtube-video.html id="tXSOmiSPoic" width="650px" %}
+    {% include image-gallery.html images="bodyvid.gif" height="350" %}
   </div>
   
   <!-- Bodymilling Image -->
