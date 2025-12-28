@@ -43,9 +43,9 @@ Included press-fit/polycarbonate shelf features to enable consistent robotic ass
 {% include image-gallery.html images="DesignIterations.png" height="500" %}
 
 ## Final Design
-{% include image-gallery.html images="CADBody.png, CADLid.png, CADAssem.png" height="250" %}
+{% include image-gallery.html images="CADBody.png, CADLid.png, CADAssem.png" height="150" %}
 
-{% include image-gallery.html images="BodyLabeled.png, LidLabeled.png, AssemLabeled.png" height="300" %}
+{% include image-gallery.html images="BodyLabeled.png, LidLabeled.png, AssemLabeled.png" height="150" %}
 
 # CNC Milling & Manufacturing Strategy
 Selected HDPE and polycarbonate stock sizes from ADML inventory.
