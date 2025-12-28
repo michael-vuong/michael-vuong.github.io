@@ -43,10 +43,10 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 • Included press-fit/chamfer features to enable consistent robotic assembly.<br>
 
 ## Design Iterations
-{% include image-gallery.html images="DesignIterations.png" height="500" %}
+{% include image-gallery.html images="DesignIterations.png" height="500" %} <br>
 
 ## Final Design
-{% include image-gallery.html images="CADBody.png, CADLid.png, CADAssemLabeled.png" height="300" %}
+{% include image-gallery.html images="CADBody.png, CADLid.png, CADAssemLabeled.png" height="300" %} <br>
 
 # CNC Milling & Manufacturing Strategy
 • Selected HDPE and polycarbonate stock sizes from ADML inventory.<br>
