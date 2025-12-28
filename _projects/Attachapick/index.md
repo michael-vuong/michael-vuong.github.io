@@ -21,17 +21,39 @@ main-image: /Thumbnail.png
 ---
 
 ---
-# Objective
-Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The process should aim to optimize manufacturing strategies, integrate computer-controlled processes, and apply lean principles to produce a functional, cost-efficient product that positively impacts society.
-{% include image-gallery.html images="ADML.png" height="400" %}
-
-
 
 {% include youtube-video.html id="b_yYclsaWBs" autoplay= "true" width="1000px"%}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Attachapick Automated Assembly
 </div>
 
+# Objective
+Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The process should aim to optimize manufacturing strategies, integrate computer-controlled processes, and apply lean principles to produce a functional, cost-efficient product that positively impacts society.
+{% include image-gallery.html images="ADML.png" height="400" %}
+
+# Design Steps
+## Product & Part Design
+Conceived a dual-component pick storage device compatible with standard capos.
+Designed precision slots for pick retention, and a bulk-load lid for rapid access and jam prevention.
+CAD modeled both parts, iterating for fit, manufacturability, and robotic assembly requirements.
+Compensated for CNC and robot tolerances (±0.0005 in. for mill, ±0.009 in. for robots) in critical dimensions and mating features.
+Included press-fit/polycarbonate shelf features to enable consistent robotic assembly.
+
+## Design Iterations
+{% include image-gallery.html images="DesignIterations.png" height="500" %}
+
+## Final Design
+{% include image-gallery.html images="CADBody.png, CADLid.png" height="500" %}
+{% include image-gallery.html images="CADAssem.png" height="500" %}
+
+{% include image-gallery.html images="BodyLabeled.png, LidLabeled.png" height="500" %}
+{% include image-gallery.html images="AssemLabeled.png" height="500" %}
+
+# CNC Milling & Manufacturing Strategy
+Selected HDPE and polycarbonate stock sizes from ADML inventory.
+Utilized CAM software to generate toolpaths, accounting for vise jaw constraints and safe wall thicknesses.
+Developed a manufacturing sequence involving robot pick-and-place, conveyor transport, CNC machining, and automated assembly.
+Documented each step with annotated screenshots from CAM and CAD.
 
 {% include image-gallery.html images="bodyvid.gif, BodyMilling.png" height="350" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
@@ -42,11 +64,6 @@ Design and manufacture a new product using HDPE on an automated assembly line en
   Lid CAM & Operation Order
 </div>
 
-{% include image-gallery.html images="DesignIterations.png" height="500" %}
 
-{% include image-gallery.html images="BodyLabeled.png, LidLabeled.png" height="500" %}
-{% include image-gallery.html images="AssemLabeled.png" height="500" %}
 
-{% include image-gallery.html images="CADAssem.png" height="500" %}
-{% include image-gallery.html images="CADBody.png, CADLid.png" height="500" %}
 {% include image-gallery.html images="WithPics.png" height="500" %}
