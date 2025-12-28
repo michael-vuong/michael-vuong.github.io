@@ -57,6 +57,7 @@ main-image: /Thumbnail.png
   Lid CAM & Operation Order
 </div>
 
+{% include image-gallery.html images="lidvid.gif, LidMilling.png" height="350" %}
 
 {% include image-gallery.html images="BodyLabeled.png" height="500" %}
 {% include image-gallery.html images="LidLabeled.png" height="500" %}
