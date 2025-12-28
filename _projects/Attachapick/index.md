@@ -36,12 +36,12 @@ main-image: /Thumbnail.png
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Lid CAM & Operation Order
 </div>
-{% include image-gallery.html images="BodyLabeled.png" height="500" %}
-{% include image-gallery.html images="LidLabeled.png" height="500" %}
+
+{% include image-gallery.html images="DesignIterations.png" height="500" %}
+
+{% include image-gallery.html images="BodyLabeled.png, LidLabeled.png" height="500" %}
 {% include image-gallery.html images="AssemLabeled.png" height="500" %}
 
 {% include image-gallery.html images="CADAssem.png" height="500" %}
-{% include image-gallery.html images="CADBody.png" height="500" %}
-{% include image-gallery.html images="CADLid.png" height="500" %}
-{% include image-gallery.html images="DesignIterations.png" height="500" %}
+{% include image-gallery.html images="CADBody.png, CADLid.png" height="500" %}
 {% include image-gallery.html images="WithPics.png" height="500" %}
