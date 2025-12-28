@@ -36,11 +36,11 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 
 # Design Steps
 ## Product & Part Design
-Conceived a dual-component pick storage device compatible with standard capos.
-Designed precision slots for pick retention, and a bulk-load lid for rapid access and jam prevention.
-CAD modeled both parts, iterating for fit, manufacturability, and robotic assembly requirements.
-Compensated for CNC and robot tolerances (±0.0005 in. for mill, ±0.009 in. for robots) in critical dimensions and mating features.
-Included press-fit/polycarbonate shelf features to enable consistent robotic assembly.
+• Conceived a dual-component pick storage device compatible with standard capos. <br>
+• Designed precision slots for pick retention, and a bulk-load lid for rapid access and jam prevention.<br>
+• CAD modeled both parts, iterating for fit, manufacturability, and robotic assembly requirements.<br>
+• Compensated for CNC and robot tolerances (±0.0005 in. for mill, ±0.009 in. for robots) in critical dimensions and mating features.<br>
+• Included press-fit/polycarbonate shelf features to enable consistent robotic assembly.<br>
 
 ## Design Iterations
 {% include image-gallery.html images="DesignIterations.png" height="500" %}
