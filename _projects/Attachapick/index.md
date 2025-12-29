@@ -44,6 +44,10 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 
 ## Design Iterations
 {% include image-gallery.html images="DesignIterations.png" height="500" %} <br>
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Previous Design Iterations For Lid & Body
+</div>
+
 
 ## Final Design
 {% include image-gallery.html images="CADBody.png, CADLid.png, CADAssemLabeled.png" height="300" %} <br>
