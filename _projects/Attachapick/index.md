@@ -71,5 +71,30 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 </div>
 <br>
 
+# CIM Programming & Automation
+• Created BUMES scripts to suit Attachapick’s sequence.<br>
+• Developed unique commands for robotic handling and CNC integration.<br>
+• Created CIM tables mapping BUMES code to manufacturing operations, referencing operation times and throughput. <br>
+• Continuously improved scripts to optimize assembly yield and throughput.<br>
+
+# Scheduling & Lean Manufacturing
+• Constructed a routing diagram with blocks for each operation, labeling bottleneck processes, idle time, and concurrency.<br>
+• Calculated maximum throughput (TH_max), steady-state work-in-progress (WIP_ss), cycle time, and non-value-added time.<br>
+• Used staggered inventory release and parallel operations to minimize WIP_ss.<br>
+• Evaluated assembly and functional yields by testing multiple production runs, documenting solutions to reach 100% robot assembly success.<br>
+
+# Cost Estimation
+• Calculated operating costs (robot, mill, conveyor hourly rates) and material usage based on final CAM outputs.<br>
+• Presented per-part and batch manufacturing cost breakdowns, including throughput-based analysis.<br>
+
+---
+
+# Results
+• Functional Attachapick prototypes successfully manufactured and assembled via ADML automated line.<br>
+• Assembly yield: 100% after iterative script and part design refinements.<br>
+• Functional yield: 100% (successful pick retention and removal in user testing).<br>
+• Manufacturing cost: $X per part (from CIM and material analysis).<br>
+• Cycle time: X min/unit, throughput close to theoretical maximum after lean improvements.<br>
+• Impact: Enables musicians to efficiently store and access picks, demonstrating integration of modern manufacturing and automation for a scalable and accessible product.<br>
 
 {% include image-gallery.html images="WithPics.png" height="500" %}
