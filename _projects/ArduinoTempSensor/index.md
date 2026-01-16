@@ -21,35 +21,35 @@ Design and prototype a room temperature monitor that displays the current temper
 
 # Design Steps
 ## Mechanical Design & Component Layout
-Designed an enclosure with wall/lid placements for all key sensors and indicators: <br>
-- **Temperature sensor** exposed to ambient air for accurate readings.<br>
-- **LCD screen** mounted visibly for real-time monitoring.<br>
-- **Switch** placed externally for easy activation/deactivation.<br>
-- **Green LED** to indicate on/off status, fixed on the enclosure.<br>
-- **Red LED** to signal out-of-range temperature, fixed on the enclosure.<br>
-- **Buzzer** positioned to alert user of abnormal temperature conditions.<br>
-- **Arduino board** located for exterior accessibility to upload code and debug.<br>
-- Custom **3D-printed battery holder** secured inside the enclosure.<br>
+Designed an enclosure with wall/lid placements for all key sensors and indicators: 
+- **Temperature sensor** exposed to ambient air for accurate readings.
+- **LCD screen** mounted visibly for real-time monitoring.
+- **Switch** placed externally for easy activation/deactivation.
+- **Green LED** to indicate on/off status, fixed on the enclosure.
+- **Red LED** to signal out-of-range temperature, fixed on the enclosure.
+- **Buzzer** positioned to alert user of abnormal temperature conditions.
+- **Arduino board** located for exterior accessibility to upload code and debug.
+- Custom **3D-printed battery holder** secured inside the enclosure.
 
 ## 3D Printing
-- CAD-modeled a battery holder tailored to the 9V battery and enclosure dimensions.<br>
-- Converted CAD file to STL and generated G-code using Cura slicer.<br>
-- Fabricated the holder with an FDM 3D printer and installed it in the enclosure.<br>
+- CAD-modeled a battery holder tailored to the 9V battery and enclosure dimensions.
+- Converted CAD file to STL and generated G-code using Cura slicer.
+- Fabricated the holder with an FDM 3D printer and installed it in the enclosure.
 
 ## Circuit Wiring
-- Practiced wiring on a breadboard, refining the schematic with Tinkercad circuit simulation.<br>
-Connected all components:<br>
-- Switch, LEDs, buzzer, temperature sensor, LCD, 9V battery.<br>
-- Soldered and heat-shrinked connections for durability.<br>
-- Used twist nuts and spade connectors for secure electrical contacts.<br>
+- Practiced wiring on a breadboard, refining the schematic with Tinkercad circuit simulation.
+Connected all components:
+- Switch, LEDs, buzzer, temperature sensor, LCD, 9V battery.
+- Soldered and heat-shrinked connections for durability.
+- Used twist nuts and spade connectors for secure electrical contacts.
 
 ## Arduino Coding & System Logic
-Programmed Arduino to:<br>
-- Blink LED for on/off status.<br>
-- Activate buzzer and red LED alarm for abnormal temperature.<br>
-- Read temperature sensor output (analog/digital).<br>
-- Display readings and status messages on LCD.<br>
-- Integrated all functionalities in a single Arduino sketch for seamless operation.<br>
+Programmed Arduino to:
+- Blink LED for on/off status.
+- Activate buzzer and red LED alarm for abnormal temperature.
+- Read temperature sensor output (analog/digital).
+- Display readings and status messages on LCD.
+- Integrated all functionalities in a single Arduino sketch for seamless operation.
 
 {% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid.png" height="400" %}
 
