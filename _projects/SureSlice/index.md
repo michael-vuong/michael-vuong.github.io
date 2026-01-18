@@ -19,7 +19,7 @@ main-image: /Thumbnail.png
 # Objective
 Create a mechanically-assistive countertop food slicer that enables users with limited hand/wrist mobility to safely and consistently slice a variety of foods.
 
-##Metrics:
+## Metrics:
 - Slice Food: deliver ~300 lb actuation force to reliably cut typical soft-to-medium produce and some firmer items.
 - Usability: single-action activation (one switch movement) and clear ready/safe indicator (LEDs).
 - Safety: prevent accidental contact with blades using mesh walls, acrylic covers, and an ultrasonic-sensor-based interlock.
@@ -28,38 +28,38 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 - Affordability: total BOM cost under $200.
 
 ---
-#Design Steps
+# Design Steps
 
 ## 1. Requirements & Concept Selection
 
 Defined user needs (assistive, safe, easy-to-use) and translated into objectives/metrics.
 Used pairwise comparison and morph charts to evaluate slicing methods, actuators, and safety features. Selected wire loops for blades and a linear actuator for actuation.
 
-## Mechanical Design
+## 2. Mechanical Design
 
 Designed 3D-printable enclosure and mounting features (Figures 8a–8c).
 Dimensioned and printed a secure linear actuator holder to ensure straight motion.
 Designed a slotted presser (Figure 8d) to align wires and ensure full cuts.
 Designed removable wire holders and a drawer (Figures 8e, 8b) for cleaning and collection.
 
-## Actuation & Power
+## 3. Actuation & Power
 
 Specified a linear actuator capable of ~300 lb force to meet slicing metric.
 Performed a power budget (Table 1) and selected power source consistent with cost and safety requirements.
 
-## Sensing & Controls
+## 4. Sensing & Controls
 
 Integrated an HC-SR04-style ultrasonic sensor for presence detection.
 Implemented Arduino Uno control: sensor input → LED ready/unsafe indicator (green/red), and actuator control via rocker switch for single-action operation (Figure 7, Figure 6).
 Developed code flow and debugging iterations (Figure 7) to improve sensing reliability.
 
-## Prototyping & Iteration
+## 5. Prototyping & Iteration
 
 Fabricated parts using PLA 3D printing and assembled electronics on a breadboard.
 Iteratively adjusted sensor positioning and code after inconsistent detection on small items (strawberries, carrots).
 Tuned presser geometry and wire placement to improve cut completeness.
 
-## Testing & Validation
+## 6. Testing & Validation
 
 Conducted repeatability and durability tests (Table 3) on wire strength and actuator performance.
 Performed functional sensing tests across multiple foods (Table 2) and recorded slicing success rates (Figure 9).
