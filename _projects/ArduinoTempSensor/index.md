@@ -18,7 +18,7 @@ main-image: /Thumbnail.png
 ---
 # Objective
 Design and prototype a room temperature monitor that displays the current temperature on an LCD screen and triggers an alarm if the temperature moves outside a desired range. The system is built with Arduino and integrates multiple electronic components within a custom enclosure for functional and visual usability.
-
+---
 # Design Steps
 ## Mechanical Design & Component Layout
 Designed an enclosure with wall/lid placements for all key sensors and indicators: 
