@@ -36,11 +36,11 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 
 # Design Steps
 ## Product & Part Design
-• Conceived a dual-component pick storage device compatible with standard capos. <br>
-• Designed precision slots for pick retention, and a bulk-load lid for rapid access and jam prevention.<br>
-• CAD modeled both parts, iterating for fit, manufacturability, and robotic assembly requirements.<br>
-• Compensated for CNC and robot tolerances (±0.0005 in. for mill, ±0.009 in. for robots) in critical dimensions and mating features.<br>
-• Included press-fit/chamfer features to enable consistent robotic assembly.<br>
+- Conceived a dual-component pick storage device compatible with standard capos. 
+- Designed precision slots for pick retention, and a bulk-load lid for rapid access and jam prevention.
+- CAD modeled both parts, iterating for fit, manufacturability, and robotic assembly requirements.
+- Compensated for CNC and robot tolerances (±0.0005 in. for mill, ±0.009 in. for robots) in critical dimensions and mating features.
+- Included press-fit/chamfer features to enable consistent robotic assembly.
 
 ## Design Iterations
 {% include image-gallery.html images="DesignIterations.png" height="500" %}
@@ -56,9 +56,9 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 </div>
 
 # CNC Milling & Manufacturing Strategy
-• Selected HDPE and polycarbonate stock sizes from ADML inventory.<br>
-• Utilized CAM software (Fusion360) to generate toolpaths, accounting for vise jaw constraints and safe wall thicknesses.<br>
-• Developed a manufacturing sequence involving robot pick-and-place, conveyor transport, CNC machining, and automated assembly.<br>
+- Selected HDPE and polycarbonate stock sizes from ADML inventory.
+- Utilized CAM software (Fusion360) to generate toolpaths, accounting for vise jaw constraints and safe wall thicknesses.
+- Developed a manufacturing sequence involving robot pick-and-place, conveyor transport, CNC machining, and automated assembly.
 
 {% include image-gallery.html images="bodyvid.gif, BodyMilling.png" height="350" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
@@ -72,29 +72,29 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 <br>
 
 # CIM Programming & Automation
-• Created BUMES scripts to suit Attachapick’s sequence.<br>
-• Developed unique commands for robotic handling and CNC integration.<br>
-• Created CIM tables mapping BUMES code to manufacturing operations, referencing operation times and throughput. <br>
-• Continuously improved scripts to optimize assembly yield and throughput.<br>
+- Created BUMES scripts to suit Attachapick’s sequence.
+- Developed unique commands for robotic handling and CNC integration.
+- Created CIM tables mapping BUMES code to manufacturing operations, referencing operation times and throughput. 
+- Continuously improved scripts to optimize assembly yield and throughput.
 
 # Scheduling & Lean Manufacturing
-• Constructed a routing diagram with blocks for each operation, labeling bottleneck processes, idle time, and concurrency.<br>
-• Calculated maximum throughput (TH_max), steady-state work-in-progress (WIP_ss), cycle time, and non-value-added time.<br>
-• Used staggered inventory release and parallel operations to minimize WIP_ss.<br>
-• Evaluated assembly and functional yields by testing multiple production runs, documenting solutions to reach 100% robot assembly success.<br>
+- Constructed a routing diagram with blocks for each operation, labeling bottleneck processes, idle time, and concurrency.
+- Calculated maximum throughput (TH_max), steady-state work-in-progress (WIP_ss), cycle time, and non-value-added time.
+- Used staggered inventory release and parallel operations to minimize WIP_ss.
+- Evaluated assembly and functional yields by testing multiple production runs, documenting solutions to reach 100% robot assembly success.
 
 # Cost Estimation
-• Calculated operating costs (robot, mill, conveyor hourly rates) and material usage based on final CAM outputs.<br>
-• Presented per-part and batch manufacturing cost breakdowns, including throughput-based analysis.<br>
+- Calculated operating costs (robot, mill, conveyor hourly rates) and material usage based on final CAM outputs.
+- Presented per-part and batch manufacturing cost breakdowns, including throughput-based analysis.
 
 ---
 
 # Results
-• Functional Attachapick prototypes successfully manufactured and assembled via ADML automated line.<br>
-• Assembly yield: 100% after iterative script and part design refinements.<br>
-• Functional yield: 100% (successful pick retention and removal in user testing).<br>
-• Manufacturing cost: $X per part (from CIM and material analysis).<br>
-• Cycle time: X min/unit, throughput close to theoretical maximum after lean improvements.<br>
-• Impact: Enables musicians to efficiently store and access picks, demonstrating integration of modern manufacturing and automation for a scalable and accessible product.<br>
+- Functional Attachapick prototypes successfully manufactured and assembled via ADML automated line.
+- Assembly yield: 100% after iterative script and part design refinements.
+- Functional yield: 100% (successful pick retention and removal in user testing).
+- Manufacturing cost: $X per part (from CIM and material analysis).
+- Cycle time: X min/unit, throughput close to theoretical maximum after lean improvements.
+- Impact: Enables musicians to efficiently store and access picks, demonstrating integration of modern manufacturing and automation for a scalable and accessible product.
 
 {% include image-gallery.html images="WithPics.png" height="500" %}
