@@ -33,7 +33,7 @@ Designed an enclosure with wall/lid placements for all key sensors and indicator
 - **Arduino board** positioned for exterior accessibility to upload code and debug.
 - Custom **3D-printed battery holder** secured inside the enclosure.
 
-{% include image-gallery.html images="CADBox.png, CADInsideView.png" height="300" %}
+{% include image-gallery.html images="CADBox.png, CADInsideView.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   CAD of Enclosure's Interior & Exterior 
 </div>
@@ -55,7 +55,7 @@ Connected all components:
 - Soldered and heat-shrinked connections for durability.
 - Used twist nuts and spade connectors for secure electrical contacts.
 
-{% include image-gallery.html images="TinkerCad.png" height="400" %}
+{% include image-gallery.html images="TinkerCad.png" height="600" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   TinkerCad Simulation
 </div>
@@ -68,7 +68,8 @@ Programmed Arduino to:
 - Display readings and status messages on LCD.
 - Integrated all functionalities in a single Arduino sketch for seamless operation.
 
-{% include image-gallery.html images="Code1.png, Code2.png" height="400" %}
+{% include image-gallery.html images="Code1.png" height="500" %}
+{% include image-gallery.html images="Code2.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Arduino Code
 </div>
