@@ -20,7 +20,7 @@ main-image: /Thumbnail.png
 Design and prototype a room temperature monitor that displays the current temperature on an LCD screen and triggers an alarm if the temperature moves outside a desired range. The system is built with Arduino and integrates multiple electronic components within a custom enclosure for functional and visual usability.
 ---
 # Design Steps
-## Mechanical Design & Component Layout
+## 1. Mechanical Design & Component Layout
 Designed an enclosure with wall/lid placements for all key sensors and indicators: 
 - **Temperature sensor** exposed to ambient air for accurate readings.
 - **LCD screen** mounted visibly for real-time monitoring.
@@ -28,10 +28,14 @@ Designed an enclosure with wall/lid placements for all key sensors and indicator
 - **Green LED** to indicate on/off status, fixed on the enclosure.
 - **Red LED** to signal out-of-range temperature, fixed on the enclosure.
 - **Buzzer** positioned to alert user of abnormal temperature conditions.
-- **Arduino board** located for exterior accessibility to upload code and debug.
+- **Arduino board** positioned for exterior accessibility to upload code and debug.
 - Custom **3D-printed battery holder** secured inside the enclosure.
+{% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid.png" height="300" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  CAD of Enclosure's Interior & Exterior 
+</div>
 
-## 3D Printing
+## 2. 3D Printing
 - CAD-modeled a battery holder tailored to the 9V battery and enclosure dimensions.
 - Converted CAD file to STL and generated G-code using Cura slicer.
 - Fabricated the holder with an FDM 3D printer and installed it in the enclosure.
@@ -51,7 +55,6 @@ Programmed Arduino to:
 - Display readings and status messages on LCD.
 - Integrated all functionalities in a single Arduino sketch for seamless operation.
 
-{% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid.png" height="400" %}
 
 {% include image-gallery.html images="CADBatteryHolder.png" height="400" %}
 
