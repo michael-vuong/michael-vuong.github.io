@@ -77,7 +77,7 @@ Programmed Arduino to:
 ---
 
 # Results
-Functional Prototype: Successfully assembled and tested an integrated room temperature monitor.
-Features: LCD readings are accurate; alarm system reliably signals when temperatures fall outside of defined thresholds; system responsive to user input via the switch.
-Prototyping: 3D-printed battery holder and customized enclosure improve ease of assembly, maintenance, and usability.
-Testing: System demonstrated robust response in a range of real-world temperature conditions; hardware and code performed consistently under repeated trials.
+- Functional Prototype: Successfully assembled and tested an integrated room temperature monitor.
+- Features: LCD readings are accurate; alarm system reliably signals when temperatures fall outside of defined thresholds; system responsive to user input via the switch.
+- Prototyping: 3D-printed battery holder and customized enclosure improve ease of assembly, maintenance, and usability.
+- Testing: System demonstrated robust response in a range of real-world temperature conditions; hardware and code performed consistently under repeated trials.
