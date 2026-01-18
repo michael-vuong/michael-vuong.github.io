@@ -18,7 +18,9 @@ main-image: /Thumbnail.png
 ---
 # Objective
 Design and prototype a room temperature monitor that displays the current temperature on an LCD screen and triggers an alarm if the temperature moves outside a desired range. The system is built with Arduino and integrates multiple electronic components within a custom enclosure for functional and visual usability.
+
 ---
+
 # Design Steps
 ## 1. Mechanical Design & Component Layout
 Designed an enclosure with wall/lid placements for all key sensors and indicators: 
@@ -30,7 +32,8 @@ Designed an enclosure with wall/lid placements for all key sensors and indicator
 - **Buzzer** positioned to alert user of abnormal temperature conditions.
 - **Arduino board** positioned for exterior accessibility to upload code and debug.
 - Custom **3D-printed battery holder** secured inside the enclosure.
-{% include image-gallery.html images="CADBox.png, CADInsideView.png, CADLid.png" height="300" %}
+
+{% include image-gallery.html images="CADBox.png, CADInsideView.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   CAD of Enclosure's Interior & Exterior 
 </div>
@@ -40,14 +43,24 @@ Designed an enclosure with wall/lid placements for all key sensors and indicator
 - Converted CAD file to STL and generated G-code using Cura slicer.
 - Fabricated the holder with an FDM 3D printer and installed it in the enclosure.
 
-## Circuit Wiring
+{% include image-gallery.html images="CADBatteryHolder.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  CAD of Custom Battery Holder
+</div>
+
+## 3. Circuit Wiring
 - Practiced wiring on a breadboard, refining the schematic with Tinkercad circuit simulation.
 Connected all components:
 - Switch, LEDs, buzzer, temperature sensor, LCD, 9V battery.
 - Soldered and heat-shrinked connections for durability.
 - Used twist nuts and spade connectors for secure electrical contacts.
 
-## Arduino Coding & System Logic
+{% include image-gallery.html images="TinkerCad.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  TinkerCad Simulation
+</div>
+
+## 4. Arduino Coding & System Logic
 Programmed Arduino to:
 - Blink LED for on/off status.
 - Activate buzzer and red LED alarm for abnormal temperature.
@@ -55,10 +68,7 @@ Programmed Arduino to:
 - Display readings and status messages on LCD.
 - Integrated all functionalities in a single Arduino sketch for seamless operation.
 
-
-{% include image-gallery.html images="CADBatteryHolder.png" height="400" %}
-
-{% include image-gallery.html images="TinkerCad.png" height="400" %}
-
 {% include image-gallery.html images="Code1.png, Code2.png" height="400" %}
-
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Arduino Code
+</div>
