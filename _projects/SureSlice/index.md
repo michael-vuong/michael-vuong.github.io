@@ -83,10 +83,10 @@ Increase reliability on firmer items (carrots, dense cheeses) by testing alterna
 Replace the breadboard prototype with a PCB and more robust enclosure fasteners for production-level durability.
 
 {% include image-gallery.html images="SureSlice.png" height="400" %}
-{% include image-gallery.html images="SureSliceBase.png" height="400" %}
-{% include image-gallery.html images="SureSliceCad.png" height="400" %}
-{% include image-gallery.html images="SureSliceDrawer.png" height="400" %}
-{% include image-gallery.html images="SureSliceLid.png" height="400" %}
-{% include image-gallery.html images="SureSlicePress.png" height="400" %}
-{% include image-gallery.html images="SureSliceWireHolder+Rod.png" height="400" %}
+{% include image-gallery.html images="Bottom.png" height="400" %}
+{% include image-gallery.html images="Assem.png" height="400" %}
+{% include image-gallery.html images="Drawer.png" height="400" %}
+{% include image-gallery.html images="id.png" height="400" %}
+{% include image-gallery.html images="Press.png" height="400" %}
+{% include image-gallery.html images="WireHolder.png" height="400" %}
 
