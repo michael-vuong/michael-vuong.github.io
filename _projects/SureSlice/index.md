@@ -2,7 +2,7 @@
 layout: post
 date: 2024-12-14
 title: SureSlice - Automatic Food Slicer (coming soon!)
-description:  Food
+description:  A compact, 3D-printed countertop slicer that assists users with limited hand mobility by using a 300 lb linear actuator to press food through removable wire blades. I worked on the mechanical design and integration, including 3D-printing the actuator housing and presser, and helped implement the ultrasonic-sensor safety system with Arduino-controlled LED indicators. 
 skills: 
   - Arduino
   - 3D Printing
