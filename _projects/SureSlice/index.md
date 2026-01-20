@@ -78,17 +78,18 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 - Conducted repeatability and durability tests on wire strength and actuator performance.
 - Performed functional sensing tests across multiple foods and recorded slicing success rates.
 - Verified single-action usability and component removability for cleaning.
-{% include image-gallery.html images="Sensing.png, SuccessRate.png" height="400" %}
-<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
-  Sensing & Success Rates
-</div>
+
 
 ---
 # Results
 
 ## Performance
 - Actuation: device produced the designed force and enabled slicing of a variety of foods.
-- Slicing success: 100% success on several tested foods, ~80% success on apples and carrots, and lower/patchy detection for very small items. See Figure 9 and Table 3.
+- Slicing success: 100% success on several tested foods, ~80% success on apples and carrots, and lower/patchy detection for very small items.
+{% include image-gallery.html images="Sensing.png, SuccessRate.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Sensing & Success Rates
+</div>
 ## Usability & Safety
 - Single-action activation achieved via rocker switch; ultrasonic sensor + LED signaling provided a clear ready/unsafe indication. Detection was reliable for larger items; smaller items required sensor/code tuning.
 - Physical guards prevented accidental contact; removable parts simplified cleaning.
