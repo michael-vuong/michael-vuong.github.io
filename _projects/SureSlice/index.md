@@ -33,9 +33,14 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 ## 1. Requirements & Concept Selection
 - Defined user needs (assistive, safe, easy-to-use) and translated into objectives/metrics.
 - Used pairwise comparison and morph charts to evaluate slicing methods, actuators, and safety features. Selected wire loops for blades and a linear actuator for actuation.
-{% include image-gallery.html images="Pairwise.png, Morph.png" height="300" %}
+{% include image-gallery.html images="Pairwise.png, Morph.png" height="350" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Pairwise Comparision & Morph Chart
+</div>
+
+{% include image-gallery.html images="LinearActuator.jpeg" height="300" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Actuator Selected
 </div>
 
 ## 2. Mechanical Design
@@ -44,9 +49,9 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 - Designed a slotted presser to align wires and ensure full cuts.
 - Designed removable wire holders and a drawer for cleaning and collection.
 {% include image-gallery.html images="Assem.png" height="400" %}
-{% include image-gallery.html images="Lid.png, Top.png" height="300" %}
-{% include image-gallery.html images="Drawer.png, Bottom.png" height="300" %}
-{% include image-gallery.html images="Press.png, WireHolder.png" height="300" %}
+{% include image-gallery.html images="Lid.png, Top.png" height="200" %}
+{% include image-gallery.html images="Drawer.png, Bottom.png" height="200" %}
+{% include image-gallery.html images="Press.png, WireHolder.png" height="200" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   CAD Components
 </div>
@@ -82,19 +87,19 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 # Results
 
 ## Performance
-Actuation: device produced the designed force and enabled slicing of a variety of foods.
-Slicing success: 100% success on several tested foods, ~80% success on apples and carrots, and lower/patchy detection for very small items. See Figure 9 and Table 3.
+- Actuation: device produced the designed force and enabled slicing of a variety of foods.
+- Slicing success: 100% success on several tested foods, ~80% success on apples and carrots, and lower/patchy detection for very small items. See Figure 9 and Table 3.
 ## Usability & Safety
-Single-action activation achieved via rocker switch; ultrasonic sensor + LED signaling provided a clear ready/unsafe indication. Detection was reliable for larger items; smaller items required sensor/code tuning.
-Physical guards prevented accidental contact; removable parts simplified cleaning.
+- Single-action activation achieved via rocker switch; ultrasonic sensor + LED signaling provided a clear ready/unsafe indication. Detection was reliable for larger items; smaller items required sensor/code tuning.
+- Physical guards prevented accidental contact; removable parts simplified cleaning.
 ## Cost & Build
-Final BOM kept total cost under $200.
-Major components are 3D printed, off-the-shelf linear actuator, Arduino Uno, ultrasonic sensor, LEDs, and common hardware—making reproduction feasible from the appendix material.
+- Final BOM kept total cost under $200.
+- Major components are 3D printed, off-the-shelf linear actuator, Arduino Uno, ultrasonic sensor, LEDs, and common hardware—making reproduction feasible from the appendix material.
 {% include image-gallery.html images="BOM.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Bill of Materials
 </div>
 ## Limitations & Next Steps
-Improve sensing for small or irregularly shaped foods by optimizing sensor placement or add complementary sensing.
-Increase reliability on firmer items by testing alternative wire tensions, blade configurations, or slightly higher actuation travel/force control.
-Replace the breadboard prototype with a PCB and more robust enclosure fasteners for production-level durability.
+- Improve sensing for small or irregularly shaped foods by optimizing sensor placement or add complementary sensing.
+- Increase reliability on firmer items by testing alternative wire tensions, blade configurations, or slightly higher actuation travel/force control.
+- Replace the breadboard prototype with a PCB and more robust enclosure fasteners for production-level durability.
