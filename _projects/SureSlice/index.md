@@ -43,15 +43,23 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 - Dimensioned and printed a secure linear actuator holder to ensure straight motion.
 - Designed a slotted presser (Figure 8d) to align wires and ensure full cuts.
 - Designed removable wire holders and a drawer (Figures 8e, 8b) for cleaning and collection.
+{% include image-gallery.html images="Assem.png, Top.png, Lid.png, Press.png, WireHolder.png, Drawer.png, Bottom.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  CAD Components
+</div>
 
 ## 3. Actuation & Power
 - Specified a linear actuator capable of ~300 lb force to meet slicing metric.
 - Performed a power budget (Table 1) and selected power source consistent with cost and safety requirements.
+{% include image-gallery.html images="Power.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Power Budget Chart
+</div>
 
 ## 4. Sensing & Controls
 - Integrated an HC-SR04-style ultrasonic sensor for presence detection.
-- Implemented Arduino Uno control: sensor input → LED ready/unsafe indicator (green/red), and actuator control via rocker switch for single-action operation (Figure 7, Figure 6).
-- Developed code flow and debugging iterations (Figure 7) to improve sensing reliability.
+- Implemented Arduino Uno control: sensor input → LED ready/unsafe indicator (green/red), and actuator control via rocker switch for single-action operation.
+- Developed code flow and debugging iterations to improve sensing reliability.
 
 ## 5. Prototyping & Iteration
 - Fabricated parts using PLA 3D printing and assembled electronics on a breadboard.
@@ -59,9 +67,13 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 - Tuned presser geometry and wire placement to improve cut completeness.
 
 ## 6. Testing & Validation
-- Conducted repeatability and durability tests (Table 3) on wire strength and actuator performance.
+- Conducted repeatability and durability tests on wire strength and actuator performance.
 - Performed functional sensing tests across multiple foods (Table 2) and recorded slicing success rates (Figure 9).
 - Verified single-action usability and component removability for cleaning.
+{% include image-gallery.html images="Sensing.png, Success.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Sensing & Success Rates
+</div>
 
 ---
 # Results
