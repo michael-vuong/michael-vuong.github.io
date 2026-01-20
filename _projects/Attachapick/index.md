@@ -31,7 +31,7 @@ main-image: /Thumbnail.png
 Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The process should aim to optimize manufacturing strategies, integrate computer-controlled processes, and apply lean principles to produce a functional, cost-efficient product that positively impacts society.
 {% include image-gallery.html images="ADML.png, UniversalRobot.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
-  Boston University EPIC's ADML & Universal Robot
+  Boston University EPIC's ADML & Universal Robot Used
 </div>
 
 # Design Steps
@@ -77,7 +77,7 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 - Developed unique commands for robotic handling and CNC integration.
 - Created CIM tables mapping BUMES code to manufacturing operations, referencing operation times and throughput. 
 - Continuously improved scripts to optimize assembly yield and throughput.
-{% include image-gallery.html images="CIMEdie.png, CIMMary.png" height="350" %}
+{% include image-gallery.html images="CIMEdie.png, CIMMary.png" height="250" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Edie & Mary CIM Tables
 </div>
@@ -87,6 +87,10 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 - Calculated maximum throughput, steady-state work-in-progress, cycle time, and non-value-added time.
 - Used staggered inventory release and parallel operations to minimize steady state WIP.
 - Evaluated assembly and functional yields by testing multiple production runs, documenting solutions to reach 100% robot assembly success.
+{% include image-gallery.html images="Routing.png" height="350" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Routing Diagram
+</div>
 
 ## 6. Cost Estimation
 - Calculated operating costs and material usage based on final CAM outputs.
@@ -103,3 +107,4 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 - Impact: Enables musicians to efficiently store and access picks, demonstrating integration of modern manufacturing and automation for a scalable and accessible product.
 
 {% include image-gallery.html images="WithPics.png" height="500" %}
+<br>
