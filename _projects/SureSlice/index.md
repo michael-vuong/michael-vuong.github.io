@@ -31,9 +31,9 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 # Design Steps
 
 ## 1. Requirements & Concept Selection
-- Defined user needs (assistive, safe, easy-to-use) and translated into objectives/metrics.
+- Defined user needs and translated into objectives/metrics.
 - Used pairwise comparison and morph charts to evaluate slicing methods, actuators, and safety features. Selected wire loops for blades and a linear actuator for actuation.
-{% include image-gallery.html images="Pairwise.png, Morph.png" height="350" %}
+{% include image-gallery.html images="Pairwise.png, Morph.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Pairwise Comparision & Morph Chart
 </div>
