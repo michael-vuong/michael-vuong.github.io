@@ -80,7 +80,7 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 ## 5. Scheduling & Lean Manufacturing
 - Constructed a routing diagram with blocks for each operation, labeling bottleneck processes, idle time, and concurrency.
 - Calculated maximum throughput, steady-state work-in-progress, cycle time, and non-value-added time.
-- Used staggered inventory release and parallel operations to minimize WIP_ss.
+- Used staggered inventory release and parallel operations to minimize steady state WIP.
 - Evaluated assembly and functional yields by testing multiple production runs, documenting solutions to reach 100% robot assembly success.
 
 ## 6. Cost Estimation
