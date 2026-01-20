@@ -33,17 +33,20 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 ## 1. Requirements & Concept Selection
 - Defined user needs (assistive, safe, easy-to-use) and translated into objectives/metrics.
 - Used pairwise comparison and morph charts to evaluate slicing methods, actuators, and safety features. Selected wire loops for blades and a linear actuator for actuation.
-{% include image-gallery.html images="Pairwise.png, Morph.png" height="400" %}
+{% include image-gallery.html images="Pairwise.png, Morph.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Pairwise Comparision & Morph Chart
 </div>
 
 ## 2. Mechanical Design
-- Designed 3D-printable enclosure and mounting features (Figures 8a–8c).
+- Designed 3D-printable enclosure and mounting features.
 - Dimensioned and printed a secure linear actuator holder to ensure straight motion.
-- Designed a slotted presser (Figure 8d) to align wires and ensure full cuts.
-- Designed removable wire holders and a drawer (Figures 8e, 8b) for cleaning and collection.
-{% include image-gallery.html images="Assem.png, Top.png, Lid.png, Press.png, WireHolder.png, Drawer.png, Bottom.png" height="400" %}
+- Designed a slotted presser to align wires and ensure full cuts.
+- Designed removable wire holders and a drawer for cleaning and collection.
+{% include image-gallery.html images="Assem.png" height="400" %}
+{% include image-gallery.html images="Lid.png, Top.png" height="300" %}
+{% include image-gallery.html images="Drawer.png, Bottom.png" height="300" %}
+{% include image-gallery.html images="Press.png, WireHolder.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   CAD Components
 </div>
@@ -70,7 +73,7 @@ Create a mechanically-assistive countertop food slicer that enables users with l
 - Conducted repeatability and durability tests on wire strength and actuator performance.
 - Performed functional sensing tests across multiple foods (Table 2) and recorded slicing success rates (Figure 9).
 - Verified single-action usability and component removability for cleaning.
-{% include image-gallery.html images="Sensing.png, Success.png" height="400" %}
+{% include image-gallery.html images="Sensing.png, SuccessRate.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Sensing & Success Rates
 </div>
