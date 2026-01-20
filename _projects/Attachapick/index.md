@@ -29,9 +29,9 @@ main-image: /Thumbnail.png
 
 # Objective
 Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The process should aim to optimize manufacturing strategies, integrate computer-controlled processes, and apply lean principles to produce a functional, cost-efficient product that positively impacts society.
-{% include image-gallery.html images="ADML.png" height="400" %}
+{% include image-gallery.html images="ADML.png, UniversalRobot.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
-  Boston University EPIC's ADML
+  Boston University EPIC's ADML & Universal Robot
 </div>
 
 # Design Steps
@@ -47,6 +47,7 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Previous Design Iterations For Lid & Body
 </div>
+<br>
 
 
 ## Final Design
@@ -69,13 +70,17 @@ Design and manufacture a new product using HDPE on an automated assembly line en
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Lid CAM & Operation Order
 </div>
-<br>
+
 
 ## 4. CIM Programming & Automation
 - Created BUMES scripts to suit Attachapick’s sequence.
 - Developed unique commands for robotic handling and CNC integration.
 - Created CIM tables mapping BUMES code to manufacturing operations, referencing operation times and throughput. 
 - Continuously improved scripts to optimize assembly yield and throughput.
+{% include image-gallery.html images="CIMEdie.png, CIMMary.png" height="350" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Edie & Mary CIM Tables
+</div>
 
 ## 5. Scheduling & Lean Manufacturing
 - Constructed a routing diagram with blocks for each operation, labeling bottleneck processes, idle time, and concurrency.
