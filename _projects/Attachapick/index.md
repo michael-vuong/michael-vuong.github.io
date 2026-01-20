@@ -2,7 +2,7 @@
 layout: post
 title: Attachapick
 date: 2025-12-15
-description: Attachapick is a portable guitar pick storage system that integrates with a standard capo, allowing musicians to securely store and quickly access picks while playing. It features a CNC-milled HDPE body with precision slots for reliable retention and easy removal, paired with a removable polycarbonate press-fit lid for bulk loading and jam prevention. <br> <br> The design was optimized for automated manufacturing, accounting for machining and robotic tolerances and utilizing CNC mills, UR5 robotic handling, conveyor transport, and robotic assembly for scalable production.
+description: A custom, compact capo-integrated storage system that holds guitar picks securely and allows quick access while playing
 
 skills: 
 - SolidWorks
@@ -28,7 +28,7 @@ main-image: /Thumbnail.png
 </div>
 
 # Objective
-Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The process should aim to optimize manufacturing strategies, integrate computer-controlled processes, and apply lean principles to produce a functional, cost-efficient product that positively impacts society.
+Design and manufacture a new product using HDPE on an automated assembly line environment (ADML). The design was optimized for automated, scalable production, accounting for machining and robotic tolerances and using CNC mills, UR5 robotic handling, conveyors, and robotic assembly—while prioritizing computer-controlled processes, lean manufacturing strategies, and cost-efficiency to deliver a functional product with positive societal impact.
 {% include image-gallery.html images="ADML.png, UniversalRobot.png" height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Boston University EPIC's ADML & Universal Robot Used
