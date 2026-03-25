@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Koi Fish Lamp
-date: 2026-01-31
+date: 2026-01-10
 description: A cozy floor lamp that provides warm lighting and aesthetics to any room.
 
 skills: 
