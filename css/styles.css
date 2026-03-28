@@ -1107,7 +1107,13 @@ footer p {
   left: 0;
   width: 100%;
   height: 100%;
+  position: relative;
   z-index: -1;          /* behind everything */
   pointer-events: none;  /* lets clicks go through */
   background-color: var(--background-color);
+}
+
+body > *:not(#gearBackground) {
+  position: relative;
+  z-index: 1;
 }
