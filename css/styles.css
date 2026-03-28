@@ -1100,33 +1100,16 @@ footer p {
     font-size: 1.3em;
   }
 }
-/* Gears background (fixed, non-blocking, behind content) /
-#gear-bg {
+/* Gears background /
+#gearBackground {
 position: fixed;
-inset: 0;                 / top:0; right:0; bottom:0; left:0; /
-pointer-events: none;     / don't intercept clicks /
-z-index: 0;               / behind main content (content should be >0) */
-background-color: var(--background-color);
-overflow: hidden;
-}
-
-/* ensure gears are absolutely positioned inside the fixed container */
-.gear {
-position: absolute;
-color: var(--gear-color, #efece7);
-opacity: 0.95;
-transform-origin: center center;
-will-change: transform, opacity;
-}
-
-/* prevent the background from showing on small screens (performance) */
-@media (max-width: 900px) {
-#gear-bg { display: none; }
-}
-
-/* make sure main site content stacks above background */
-header, main, .hero-section, .project-grid-section, footer {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 position: relative;
-z-index: 1;
+z-index: -1;          / behind everything /
+pointer-events: none;  / lets clicks go through */
+background-color: var(--background-color);
 }
 
