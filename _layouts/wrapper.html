@@ -23,20 +23,26 @@
 
 </head>
 <body>
+    <!-- Canvas for gears background -->
+    <canvas id="gearBackground"></canvas>
+
     <!-- NAVBAR -->
-     {% include navbar.html%}
+    {% include navbar.html %}
 
-     <div class="page">{{content}}</div>
+    <div class="page">{{ content }}</div>
 
- <script>
-  document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('click', function(e) {
-      this.classList.toggle('flipped');
-    });
-  });
-</script>
+    <!-- Your existing scripts -->
+    <script>
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function(e) {
+          this.classList.toggle('flipped');
+        });
+      });
+    </script>
 
-
+    <!-- JS files -->
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/gears.js' | relative_url }}"></script>
 </body>
 
     {% include footer.html%}
