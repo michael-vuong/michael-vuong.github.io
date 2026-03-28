@@ -1112,7 +1112,4 @@ footer p {
   background-color: var(--background-color);
 }
 
-body > *:not(#gearBackground) {
-  position: relative;
-  z-index: 1;
-}
+
