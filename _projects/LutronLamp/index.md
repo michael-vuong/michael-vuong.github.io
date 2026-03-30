@@ -32,16 +32,20 @@ Design and fabricate some form of light (decorative koi fish lamp) for the Lutro
 - Focused on capturing the natural curvature and elegance of koi through simplified, stylized geometry.
 - Considered light diffusion, light intensity, and how the internal light source would interact with the outer surface.
 
-{% include image-gallery.html images="sketches.JPEG, base.jpg, gear.jpg, bottom.jpg" height="300" %} 
+{% include image-gallery.html images="sketches.JPEG" height="300" %} 
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Base
 </div>
 
 
-## 2.
+## 2. Foundation
 - 3D printed custom bevel gears for base.
 - Cut plywood with band saw built a peg base for gear.
 - Assemble gear/box base and inserted PVC pipe for lamp tube.
+{% include image-gallery.html images="bottom.jpg, gear.jpg, base.jpg" height="300" %} 
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Base
+</div>
 
 
 ## 3. Structural Framework (Wire Form)
