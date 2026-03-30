@@ -16,34 +16,48 @@ main-image: /Thumbnail.png
 
 ---
 
-{% include image-gallery.html images="base.jpg" height="300" %} 
+
+
+
+# Objective
+
+Design and fabricate some form of light (decorative koi fish lamp) for the Lutron Lighting Competition! This particular project focused on combining lightweight materials with structural integrity to create an illuminated form, while combining the creativity and engineering.
+
+---
+
+# Design Steps
+## 1. Concept Development
+- Brainstormed and sketched shape of the lamp and base designs
+- Developed the concept of a koi fish-inspired lamp emphasizing flowing, organic motion.
+- Focused on capturing the natural curvature and elegance of koi through simplified, stylized geometry.
+- Considered light diffusion, light intensity, and how the internal light source would interact with the outer surface.
+
+{% include image-gallery.html images="sketches.JPEG, base.jpg, gear.jpg, bottom.jpg" height="300" %} 
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Base
 </div>
 
 
-# Objective
+## 2.
+- 3D printed custom bevel gears for base.
+- Cut plywood with band saw built a peg base for gear.
+- Assemble gear/box base and inserted PVC pipe for lamp tube.
 
-Design and fabricate a decorative koi fish lamp using paper mache and aluminum craft wire. The project focused on combining lightweight materials with structural integrity to create an illuminated form, while exploring form development, material behavior, and efficient hand-crafted production techniques.
 
-# Design Steps
-## 1. Concept Development
-Developed the concept of a koi fish-inspired lamp emphasizing flowing, organic motion.
-Focused on capturing the natural curvature and elegance of koi through simplified, stylized geometry.
-Considered light diffusion and how the internal light source would interact with the outer surface.
-## 2. Structural Framework (Wire Form)
+## 3. Structural Framework (Wire Form)
 Constructed the base structure using aluminum craft wire to define the fish’s overall shape.
 Formed the spine and rib-like supports to maintain dimensional stability.
 Balanced rigidity and flexibility to allow iterative shaping without structural failure.
-## 3. Surface Formation (Paper Mache)
+
+## 4. Surface Formation (Paper Mache)
 Applied layered paper mache over the wire frame to create the outer shell.
 Controlled thickness to ensure durability while maintaining light transmission.
 Refined surface contours through multiple iterations to achieve smooth transitions and organic form.
-## 4. Lighting Integration
+## 5. Lighting Integration
 Designed internal space to house a light source without compromising structure.
 Ensured even light diffusion through material thickness and surface consistency.
 Considered heat, accessibility, and stability in the placement of the lighting element.
-## 5. Finishing & Detailing
+## 6. Finishing & Detailing
 Sanded and refined the dried surface for a clean final appearance.
 Applied paint and finishing techniques to enhance visual depth and highlight form.
 Finalized assembly ensuring structural integrity and consistent illumination.
