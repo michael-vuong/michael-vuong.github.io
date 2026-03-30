@@ -15,3 +15,8 @@ main-image: /Thumbnail.png
 ---
 
 ---
+
+{% include image-gallery.html images="base.HEIC" height="300" %} 
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  CAD of Final Design
+</div>
