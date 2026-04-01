@@ -52,6 +52,10 @@ Design and fabricate some form of light (decorative koi fish lamp) for the Lutro
 ## 3. Structural Framework
 - Fabricated the lamp’s primary structure using aluminum craft wire, forming both the flowing wave elements and the koi fish geometry.
 - Integrated all components onto a central PVC pipe, providing a stable backbone for alignment, support, and assembly.
+{% include image-gallery.html images="WireLamp.jpg, WireKoi.jpg, WireLampClose.jpg" height="300" %} 
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  
+</div>
 
 
 ## 4. Surface Formation (Paper Mache)
