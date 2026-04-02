@@ -12,7 +12,6 @@ main-image: /Thumbnail.png
 ---
 
 # Objective
-
 Design, prototype, and produce a powder dispensing device through a structured product realization process, progressing from initial concept to production-ready prototypes. Simultaneously maintained and continuously updated 19 documents (BOM, Cost Model, SOP, etc), ensuring thorough documentation of design decisions, testing results, manufacturing plans, and production considerations across each development stage.
 
 # Design Steps
@@ -26,15 +25,7 @@ Selected the concept based on its balance of mechanical design, user interaction
 Brainstormed and sketched multiple powder dispenser concepts, generating 5–8 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
 Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
 Downselected the most promising concept based on reliability, manufacturability, dosing accuracy, and user ergonomics, providing a clear rationale for the decision.
-Began drafting initial CAD models and technical drawings (DOC 2), capturing preliminary geometry, part interfaces, and functional layouts for review.
-Established project management infrastructure by creating and populating key documents:
-DOC 1 – Detailed Project Proposal: Expanded slide-based concept presentation, including proposed manufacturing processes, materials, finishes, and part lists.
-DOC 2 – CAD Models & Drawings: PDF set of initial CAD designs for team and instructor review.
-DOC 3 – Enterprise Data Management Plan: Defined system for document control and versioning throughout the project lifecycle.
-DOC 4 – Schedule & Deliverables: Established timeline for EVT, DVT, PVT, and documentation updates.
-DOC 5 – RASCI (Roles & Responsibilities): Assigned responsibilities for all project tasks and deliverables through the semester.
-DOC 6 – Risk Management: Identified initial project risks, including material handling issues, assembly challenges, and accuracy concerns.
-Ensured all six documents were copied to the team drive and structured for continuous updating, supporting seamless collaboration and adherence to documentation standards.
+
 Produced a single PDF summarizing the idea generation and selection process, highlighting alternative concepts, sketches, and rationale, demonstrating thoughtful refinement and thorough documentation practices.
 
 Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
@@ -45,7 +36,7 @@ Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Ent
 - Developed initial mockups and functional prototypes to de-risk key aspects of the design, including powder flow, auger rotation, and material containment.
 - Built targeted feature tests (rather than a single full prototype) to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
 
-Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), and DOC10 (Tooling Plan).
+Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
 
 ## 4. EVT (Engineering Validation Testing)
 Fabricated early-stage prototypes focused on validating the core dispensing mechanism.
