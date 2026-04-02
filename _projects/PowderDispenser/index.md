@@ -37,12 +37,15 @@ DOC 6 – Risk Management: Identified initial project risks, including material 
 Ensured all six documents were copied to the team drive and structured for continuous updating, supporting seamless collaboration and adherence to documentation standards.
 Produced a single PDF summarizing the idea generation and selection process, highlighting alternative concepts, sketches, and rationale, demonstrating thoughtful refinement and thorough documentation practices.
 
+Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
+
+
 ## 3. Concept Development
-Created initial CAD models to explore different dispensing mechanisms and internal geometries.
-Evaluated design approaches for regulating powder flow, including outlet sizing, internal channel angles, and material transitions.
-Considered common failure modes such as bridging, clogging, and inconsistent discharge during early design decisions.
-Iterated on form and layout to integrate user interaction, refill accessibility, and structural integrity.
-Selected a final concept that balanced simplicity, reliability, and compatibility with manufacturing processes.
+- Communicated the finalized product concept and overall manufacturing approach, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
+- Developed initial mockups and functional prototypes to de-risk key aspects of the design, including powder flow, auger rotation, and material containment.
+- Built targeted feature tests (rather than a single full prototype) to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
+
+Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), and DOC10 (Tooling Plan).
 
 ## 4. EVT (Engineering Validation Testing)
 Fabricated early-stage prototypes focused on validating the core dispensing mechanism.
