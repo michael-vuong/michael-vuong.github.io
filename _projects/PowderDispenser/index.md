@@ -23,10 +23,19 @@ Identified powder dispensing as a compelling challenge due to the complexity of 
 Selected the concept based on its balance of mechanical design, user interaction, and opportunities for iterative testing and validation.
 
 ## 2. Project Proposal
-Defined clear project objectives, including consistent dispensing, minimal clogging, ease of use, and straightforward manufacturability.
-Established functional requirements such as controlled output per cycle, reliable actuation, and accessible refill methods.
-Outlined initial design direction, including a gravity-assisted dispensing approach with integrated flow control features.
-Developed a project timeline aligned with EVT, DVT, and PVT milestones, ensuring structured iteration and validation.
+Brainstormed and sketched multiple powder dispenser concepts, generating 5–8 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
+Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
+Downselected the most promising concept based on reliability, manufacturability, dosing accuracy, and user ergonomics, providing a clear rationale for the decision.
+Began drafting initial CAD models and technical drawings (DOC 2), capturing preliminary geometry, part interfaces, and functional layouts for review.
+Established project management infrastructure by creating and populating key documents:
+DOC 1 – Detailed Project Proposal: Expanded slide-based concept presentation, including proposed manufacturing processes, materials, finishes, and part lists.
+DOC 2 – CAD Models & Drawings: PDF set of initial CAD designs for team and instructor review.
+DOC 3 – Enterprise Data Management Plan: Defined system for document control and versioning throughout the project lifecycle.
+DOC 4 – Schedule & Deliverables: Established timeline for EVT, DVT, PVT, and documentation updates.
+DOC 5 – RASCI (Roles & Responsibilities): Assigned responsibilities for all project tasks and deliverables through the semester.
+DOC 6 – Risk Management: Identified initial project risks, including material handling issues, assembly challenges, and accuracy concerns.
+Ensured all six documents were copied to the team drive and structured for continuous updating, supporting seamless collaboration and adherence to documentation standards.
+Produced a single PDF summarizing the idea generation and selection process, highlighting alternative concepts, sketches, and rationale, demonstrating thoughtful refinement and thorough documentation practices.
 
 ## 3. Concept Development
 Created initial CAD models to explore different dispensing mechanisms and internal geometries.
