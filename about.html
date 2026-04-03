@@ -4,17 +4,17 @@ title: About
 permalink: /about/
 ---
 
-<!-- HERO SECTION: Image + Text -->
+<!-- HERO SECTION: About Me -->
 <section class="hero-section about-hero">
-    <div class="group">
-        <div class="text">
-            <h2>Here's a bit about me.</h2>
-            <p>{{ site.about_text }}</p> <!-- Add your about me text in _config.yml -->
-        </div>
-        <div class="headshot">
-            <img src="{{ ./assets/images/profile-image/SASEHead.jpg }}" alt="{{ site.name }} headshot">
-        </div>
+  <div class="group">
+    <div class="text">
+      <h2>Here's a bit about me.</h2>
+      <p>{{ site.about_text }}</p>
     </div>
+    <div class="headshot">
+      <img src="{{ site.about_profile_image }}" alt="{{ site.name }} about headshot" />
+    </div>
+  </div>
 </section>
 
 <!-- GALLERY / CARDS SECTION -->
