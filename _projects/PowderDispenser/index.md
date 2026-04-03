@@ -2,6 +2,7 @@
 layout: post
 title: Powder Dispenser
 date: 2026-01-15
+featured: true
 description: A compact powder/substance dispenser designed to reliably measure and dispense precise small-batch doses. 
 skills: 
 - CAD
@@ -18,6 +19,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 
 ## 1. Project Proposal
 ### Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
+<br>
 - Brainstormed and sketched multiple powder dispenser concepts, generating 4 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
 - Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
 
@@ -25,10 +27,11 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Initial Powder Scooper/Dispenser Ideas
 </div>
-
+<br>
 
 ## 2. Concept Development
 ### Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
+<br>
 - 3D printed initial mockup to de-risk key aspects of the design, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
 - Built targeted feature tests, rather than a single full prototype, to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
 
@@ -36,7 +39,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   New Auger Style Dispenser
 </div>
-
+<br>
 ## 3. EVT (Engineering Validation Testing)
 - Shifted toward new design with a trigger mechanism for dispensing.
 {% include image-gallery.html images="EVTDispenser.png, EVTWheel.png, EVTBottom.png" height="300" %}
@@ -61,7 +64,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Stainless Steel Stand
 </div>
-
+<br>
 ## 4. DVT (Design Validation Testing)
 Refined the design to improve reliability, repeatability, and overall user experience.
 Conducted repeated dispensing trials to evaluate consistency and identify sources of variation in output.
