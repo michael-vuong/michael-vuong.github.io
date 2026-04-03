@@ -17,7 +17,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 # Design Steps
 
 ## 1. Project Proposal
-### Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
+## Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
 - Brainstormed and sketched multiple powder dispenser concepts, generating 4 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
 - Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
 
@@ -28,10 +28,9 @@ Design, prototype, and produce a powder dispensing device through a structured p
 
 
 ## 2. Concept Development
+## Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
 - 3D printed initial mockup to de-risk key aspects of the design, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
 - Built targeted feature tests, rather than a single full prototype, to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
-
-Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
 
 {% include image-gallery.html images="AugerCAD.png, Auger.png, AugerExploded.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
@@ -48,7 +47,7 @@ Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Ent
 - Began experimenting with silicone molding!
 {% include image-gallery.html images="MixingSil.jpg, CardboardSilicone.jpg, 3Cardboard.jpg, SiliconeBlock.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
-  New Auger Style Dispenser
+  First Time Silicone Molding (messy and too much silicone, but optimized later!)
 </div>
   
 - Casted parts were CNC Milled to final geometry
@@ -70,6 +69,10 @@ Optimized tolerances, mating features, and assembly methods to ensure stable and
 Improved ergonomics and usability, including actuation method and refill process.
 Addressed durability concerns by reinforcing critical features and refining material selection.
 Validated that the design met functional and user requirements under typical use conditions.
+{% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispensers.jpg, RefinedMolds.jpg, ResinCased.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Stainless Steel Stand
+</div>
 
 ## 5. PVT (Production Validation Testing)
 Produced multiple units using production-intent geometry and manufacturing methods.
