@@ -1105,25 +1105,25 @@ footer p {
   padding: 2rem 0;
 }
 
-.gallery-container {
+.about-gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
   gap: 2rem; /* spacing between cards */
   justify-items: center; /* center items horizontally */
 }
 
-.gallery-card {
+.about-gallery-card {
   text-align: center; /* center caption */
 }
 
-.gallery-card img {
+.about-gallery-card img {
   width: 100%; /* make it fit card width */
   max-width: 250px; /* optional max size */
   height: auto;
   border-radius: 8px; /* optional rounding */
 }
 
-.gallery-card .caption {
+.about-gallery-card .caption {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   color: #333;
