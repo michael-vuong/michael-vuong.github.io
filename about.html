@@ -4,21 +4,43 @@ title: About
 permalink: /about/
 ---
 
-<section id="about-me" class="about-section">
-    <h1>About Me</h1>
-    <div class="about-content">
-        <p>Here's A Little More About Me.</p>
+<!-- HERO SECTION: Image + Text -->
+<section class="hero-section about-hero">
+    <div class="group">
+        <div class="text">
+            <h2>I'm {{ site.name }}</h2>
+            <p>{{ site.about_text }}</p> <!-- Add your about me text in _config.yml -->
+        </div>
+        <div class="headshot">
+            <img src="{{ site.profile_image }}" alt="{{ site.name }} headshot">
+        </div>
+    </div>
+</section>
 
-        <h2>Fun Facts</h2>
-        <ul>
-            <li>I enjoy building quirky DIY projects at home, from paper mache sculptures to custom LED lamps.</li>
-            <li>I love exploring new music genres and sometimes experiment with creating my own sounds.</li>
-            <li>I'm an avid hiker and enjoy taking my camera on nature trails.</li>
-            <li>I have a soft spot for animals, especially koi fish and cats.</li>
-        </ul>
+<!-- GALLERY / CARDS SECTION -->
+<section id="about-gallery" class="grid-section">
+    <h2>Highlights & Hobbies</h2>
+    <div class="grid-container">
 
-        <h2>Hobbies & Interests</h2>
-        <p>When I'm not working on engineering projects, I like painting, photography, and experimenting with small electronics or robotics kits.</p>
+        <!-- Example Card -->
+        <div class="card">
+            <img src="/assets/images/about/hiking.jpg" alt="Hiking">
+            <h3>Hiking Adventures</h3>
+            <p>Exploring trails and capturing nature through photography.</p>
+        </div>
 
+        <div class="card">
+            <img src="/assets/images/about/diy.jpg" alt="DIY Projects">
+            <h3>DIY Projects</h3>
+            <p>Creating unique designs, lamps, and small crafts in my free time.</p>
+        </div>
+
+        <div class="card">
+            <img src="/assets/images/about/music.jpg" alt="Music">
+            <h3>Music & Sound</h3>
+            <p>Experimenting with sounds and exploring various genres of music.</p>
+        </div>
+
+        <!-- Add more cards as needed -->
     </div>
 </section>
