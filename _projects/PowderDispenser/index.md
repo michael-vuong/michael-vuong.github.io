@@ -52,11 +52,15 @@ Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Ent
 </div>
   
 - Casted parts were CNC Milled to final geometry
+{% include image-gallery.html images="MillingWheel.gif" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Milling Parts Using Custom Soft Jaws
+</div>
 - Stand was cut using the water jet and bent using a sheet metal brake.
 
-{% include image-gallery.html images="EVTWheel.png, EVTDispenser.png, EVTBottom.png, CardboardSilicone.jpg, FlatStand.jpg, SiliconeBlock.jpg, SoloStand.jpg, 3Cardboard.jpg, MixingSil.jpg" %}
+{% include image-gallery.html images="FlatStand.jpg, SoloStand.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
-  New Auger Style Dispenser
+  Stainless Steel Stand
 </div>
 
 ## 4. DVT (Design Validation Testing)
