@@ -1102,7 +1102,7 @@ footer p {
 
 /* ABOUT PAGE GALLERY / CARDS - no flipping */
 #about-gallery {
-  max-width: 1000px;      /* container width */
+  max-width: 300px;      /* container width */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -1152,18 +1152,4 @@ footer p {
   text-align: center;
 }
 
-/* Responsive: 2 per row tablets */
-@media (max-width: 900px) {
-  #about-gallery .grid-container .card {
-    flex: 1 1 45%;
-    max-width: 45%;
-  }
-}
 
-/* Responsive: 1 per row mobile */
-@media (max-width: 600px) {
-  #about-gallery .grid-container .card {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-}
