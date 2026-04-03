@@ -1100,9 +1100,9 @@ footer p {
     font-size: 1.3em;
   }
 
-/* ABOUT PAGE GALLERY / CARDS */
+/* ABOUT PAGE GALLERY / CARDS - no flipping */
 #about-gallery {
-  max-width: 350px;
+  max-width: 1000px;      /* container width */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -1114,43 +1114,56 @@ footer p {
 }
 
 #about-gallery .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
-  gap: 1.5rem;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;              /* space between cards */
 }
 
-#about-gallery .card {
+#about-gallery .grid-container .card {
+  flex: 1 1 280px;        /* min-width 280px, max auto */
+  max-width: 300px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#about-gallery .card img {
+#about-gallery .grid-container .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+#about-gallery .grid-container .card img {
   width: 100%;
-  height: auto;
+  height: 200px;          /* consistent image height */
+  object-fit: cover;
+  border-radius: inherit;
   display: block;
 }
 
-#about-gallery .card h3 {
-  margin: 0.5rem 0 1rem 0;
+#about-gallery .grid-container .card h3 {
+  margin: 0.75rem 0 1rem 0;
   font-size: 1rem;
+  font-weight: 500;
   color: #333;
   text-align: center;
 }
 
-/* Responsive for tablets */
+/* Responsive: 2 per row tablets */
 @media (max-width: 900px) {
-  #about-gallery .grid-container {
-    grid-template-columns: repeat(2, 1fr);
+  #about-gallery .grid-container .card {
+    flex: 1 1 45%;
+    max-width: 45%;
   }
 }
 
-/* Responsive for mobile */
+/* Responsive: 1 per row mobile */
 @media (max-width: 600px) {
-  #about-gallery .grid-container {
-    grid-template-columns: 1fr;
+  #about-gallery .grid-container .card {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
