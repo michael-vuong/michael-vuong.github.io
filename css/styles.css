@@ -1100,31 +1100,57 @@ footer p {
     font-size: 1.3em;
   }
 
-/* ABOUT GALLERY */
-.about-gallery {
-  padding: 2rem 0;
+/* ABOUT PAGE GALLERY / CARDS */
+#about-gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.about-gallery-container {
+#about-gallery h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#about-gallery .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
-  gap: 2rem; /* spacing between cards */
-  justify-items: center; /* center items horizontally */
+  gap: 1.5rem;
+  justify-items: center;
 }
 
-.about-gallery-card {
-  text-align: center; /* center caption */
+#about-gallery .card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
-.about-gallery-card img {
-  width: 100%; /* make it fit card width */
-  max-width: 250px; /* optional max size */
+#about-gallery .card img {
+  width: 100%;
   height: auto;
-  border-radius: 8px; /* optional rounding */
+  display: block;
 }
 
-.about-gallery-card .caption {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
+#about-gallery .card h3 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1rem;
   color: #333;
+  text-align: center;
+}
+
+/* Responsive for tablets */
+@media (max-width: 900px) {
+  #about-gallery .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  #about-gallery .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
