@@ -1102,7 +1102,7 @@ footer p {
 
 /* ABOUT PAGE GALLERY / CARDS */
 #about-gallery {
-  max-width: 1200px;  /* max width of the whole gallery */
+  max-width: 1000px; /* Constrain the gallery width */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -1121,20 +1121,22 @@ footer p {
 }
 
 #about-gallery .card {
-  width: 100%;
-  max-width: 250px;      /* force smaller card width */
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
+  width: 100%;           /* fill grid cell */
+  max-width: 300px;      /* force card width */
 }
 
 #about-gallery .card img {
-  width: 100%;
-  height: 150px;         /* force small image height */
-  object-fit: cover;     /* crop image to fit the card */
+  width: 100%;            /* scale to card width */
+  max-height: 180px;      /* limit image height */
+  object-fit: cover;      /* crop if too tall */
   display: block;
+  margin: 0 auto;         /* center */
+  border-radius: 8px 8px 0 0;
 }
 
 #about-gallery .card h3 {
@@ -1142,19 +1144,5 @@ footer p {
   font-size: 1rem;
   color: #333;
   text-align: center;
-}
-
-/* Responsive for tablets */
-@media (max-width: 900px) {
-  #about-gallery .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Responsive for mobile */
-@media (max-width: 600px) {
-  #about-gallery .grid-container {
-    grid-template-columns: 1fr;
-  }
 }
 
