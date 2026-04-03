@@ -1100,49 +1100,17 @@ footer p {
     font-size: 1.3em;
   }
 
-/* ABOUT PAGE GALLERY / CARDS */
-#about-gallery {
-  max-width: 1000px; /* Constrain the gallery width */
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-#about-gallery h2 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-}
-
+/* About Gallery Cards: 3 per row */
 #about-gallery .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
-  gap: 1.5rem;
-  justify-items: center;
+  gap: 1.5rem; /* space between cards */
+  justify-items: center; /* center cards horizontally */
 }
 
-#about-gallery .card {
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: center;
-  width: 100%;           /* fill grid cell */
-  max-width: 300px;      /* force card width */
-}
-
+/* Make sure images don't overflow */
 #about-gallery .card img {
-  width: 100%;            /* scale to card width */
-  max-height: 180px;      /* limit image height */
-  object-fit: cover;      /* crop if too tall */
+  width: 250px;  /* fixed width */
+  height: auto;  /* auto height to maintain aspect ratio */
   display: block;
-  margin: 0 auto;         /* center */
-  border-radius: 8px 8px 0 0;
 }
-
-#about-gallery .card h3 {
-  margin: 0.5rem 0 1rem 0;
-  font-size: 1rem;
-  color: #333;
-  text-align: center;
-}
-
