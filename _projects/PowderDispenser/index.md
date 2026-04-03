@@ -6,6 +6,13 @@ featured: true
 description: A compact powder/substance dispenser designed to reliably measure and dispense precise small-batch doses. 
 skills: 
 - CAD
+- Silicone Molding
+- Casting
+- CNC Mill
+- CNC Lathe
+- Wire EDM
+- Fasteners
+- Documentation
   
 main-image: /Thumbnail.png
 ---
@@ -65,31 +72,15 @@ Design, prototype, and produce a powder dispensing device through a structured p
   Stainless Steel Stand
 </div>
 <br>
+
 ## 4. DVT (Design Validation Testing)
-Refined the design to improve reliability, repeatability, and overall user experience.
-Conducted repeated dispensing trials to evaluate consistency and identify sources of variation in output.
-Optimized tolerances, mating features, and assembly methods to ensure stable and repeatable performance.
-Improved ergonomics and usability, including actuation method and refill process.
-Addressed durability concerns by reinforcing critical features and refining material selection.
-Validated that the design met functional and user requirements under typical use conditions.
-{% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispenser.jpg, RefinedMolds.jpg, ResinCasted.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
-<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
-  Stainless Steel Stand
-</div>
+(Not yet developed)
 
 ## 5. PVT (Production Validation Testing)
-Produced multiple units using production-intent geometry and manufacturing methods.
-Evaluated consistency across units to ensure reliable performance at small production scale.
-Validated assembly workflow, identifying opportunities to simplify processes and reduce variability.
-Finalized part design, dimensions, and interfaces to support repeatable manufacturing.
-Confirmed that the design met performance expectations while being feasible for scaled production.
+(Not yet developed)
 
 ## 6. Mass Production Plan
 (Not yet developed)
 
 # Results
-Successfully developed a powder dispensing device from concept through production validation stages.
-Achieved reliable and repeatable dispensing performance through iterative design and testing.
-Identified and resolved key material flow challenges, including clogging and inconsistent output.
-Produced multiple production-ready prototypes demonstrating consistency across units.
-Established a complete product development workflow aligned with industry-standard realization processes.
+(Not yet developed)
