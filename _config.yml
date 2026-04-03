@@ -25,26 +25,6 @@ about_text: >-
   I also aim to be a better cook and to share memorable experiences with friends and family!
 about_profile_image: ./assets/images/profile-image/about-headshot.jpg
 
-<section id="about-gallery" class="grid-section">
-  <h2>Highlights & Hobbies</h2>
-  <div class="grid-container">
-
-    <div class="card">
-      <img src="/assets/images/about/hiking.jpg" alt="Hiking">
-      <h3>Hiking Adventures</h3>
-      <p>Exploring trails and capturing nature through photography.</p>
-    </div>
-
-    <div class="card">
-      <img src="/assets/images/about/diy.jpg" alt="DIY Projects">
-      <h3>DIY Projects</h3>
-      <p>Creating unique designs, lamps, and small crafts in my free time.</p>
-    </div>
-
-    <!-- Add more cards as needed -->
-
-  </div>
-</section>
 
 
   
