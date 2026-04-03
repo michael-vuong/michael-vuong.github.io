@@ -21,7 +21,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 - Brainstormed and sketched multiple powder dispenser concepts, generating 4 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
 - Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
 
-{% include image-gallery.html images="Iris.png, Quarter.png, Tongs.png, Hopper.png" height="300" %}
+{% include image-gallery.html images="Iris.png, Quarter.png, Tongs.png, Hopper.png" height="200" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Initial Powder Scooper/Dispenser Ideas
 </div>
@@ -39,13 +39,22 @@ Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Ent
 </div>
 
 ## 3. EVT (Engineering Validation Testing)
-Fabricated early-stage prototypes focused on validating the core dispensing mechanism.
-Conducted initial testing to observe powder flow behavior and identify critical issues such as jamming, irregular discharge, and material buildup.
-Iteratively modified internal geometries, outlet dimensions, and flow paths to improve consistency.
-Evaluated fundamental functionality, confirming that the design could reliably dispense material under basic operating conditions.
-Established baseline performance metrics to guide further refinement.
+- Shifted toward new design with a trigger mechanism for dispensing.
+{% include image-gallery.html images="EVTDispenser.png, EVTWheel.png, EVTBottom.png" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  New Dispenser Design
+</div>
 
-{% include image-gallery.html images="EVTWheel.png, EVTDispenser.png, EVTBottom, CardboardSilicone.jpg, Flatstand.jpg, SiliconeBlock.jpg, Solostand.jpg, 3Cardboard.jpg, MixingSil.jpg" %}
+- Began experimenting with silicone molding!
+{% include image-gallery.html images="MixingSil.jpg, CardboardSilicone.jpg, 3Cardboard.jpg, SiliconeBlock.jpg" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  New Auger Style Dispenser
+</div>
+  
+- Casted parts were CNC Milled to final geometry
+- Stand was cut using the water jet and bent using a sheet metal brake.
+
+{% include image-gallery.html images="EVTWheel.png, EVTDispenser.png, EVTBottom.png, CardboardSilicone.jpg, FlatStand.jpg, SiliconeBlock.jpg, SoloStand.jpg, 3Cardboard.jpg, MixingSil.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   New Auger Style Dispenser
 </div>
@@ -65,7 +74,7 @@ Validated assembly workflow, identifying opportunities to simplify processes and
 Finalized part design, dimensions, and interfaces to support repeatable manufacturing.
 Confirmed that the design met performance expectations while being feasible for scaled production.
 
-## 7. Mass Production Plan
+## 6. Mass Production Plan
 (Not yet developed)
 
 # Results
