@@ -18,6 +18,35 @@ description: >- # dont remove this line. this will ignore all new lines until th
   I’m passionate about researching and applying modern manufacturing methods to optimize production processes, reduce waste, and lower costs. 
   Beyond analysis, I enjoy bringing ideas to life through prototyping, whether I’m developing components in CAD, testing new design concepts, or refining designs through hands-on iteration. 
   This blend of process optimization and practical prototyping fuels my interest in engineering and continuous improvement. 
+
+# About Me Section
+about_text: >-
+  Outside engineering, I my hobbies include volleyball, photography, opening Pokemon cards, rock climbing, listening to music, and traveling. 
+  I also aim to be a better cook and to share memorable experiences with friends and family!
+about_profile_image: ./assets/images/profile-image/about-headshot.jpg
+
+<section id="about-gallery" class="grid-section">
+  <h2>Highlights & Hobbies</h2>
+  <div class="grid-container">
+
+    <div class="card">
+      <img src="/assets/images/about/hiking.jpg" alt="Hiking">
+      <h3>Hiking Adventures</h3>
+      <p>Exploring trails and capturing nature through photography.</p>
+    </div>
+
+    <div class="card">
+      <img src="/assets/images/about/diy.jpg" alt="DIY Projects">
+      <h3>DIY Projects</h3>
+      <p>Creating unique designs, lamps, and small crafts in my free time.</p>
+    </div>
+
+    <!-- Add more cards as needed -->
+
+  </div>
+</section>
+
+
   
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/SASEHead.jpg
