@@ -39,7 +39,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 
 ## 3. EVT (Engineering Validation Testing)
 - Shifted toward new design with a trigger mechanism for dispensing.
-{% include image-gallery.html images="EVTDispenser.png, EVTWheel.png, EVTBottom.png" %}
+{% include image-gallery.html images="EVTDispenser.png, EVTWheel.png, EVTBottom.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   New Dispenser Design
 </div>
@@ -50,14 +50,14 @@ Design, prototype, and produce a powder dispensing device through a structured p
   First Time Silicone Molding (messy and too much silicone, but optimized later!)
 </div>
   
-- Casted parts were CNC Milled to final geometry
-{% include image-gallery.html images="MillingWheel.gif" %}
+- Casted parts with resin, then they were CNC Milled to final geometry
+{% include image-gallery.html images="MillingWheel.gif"  height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Milling Parts Using Custom Soft Jaws
 </div>
 - Stand was cut using the water jet and bent using a sheet metal brake.
 
-{% include image-gallery.html images="FlatStand.jpg, SoloStand.jpg" %}
+{% include image-gallery.html images="FlatStand.jpg, SoloStand.jpg"  height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Stainless Steel Stand
 </div>
@@ -69,7 +69,7 @@ Optimized tolerances, mating features, and assembly methods to ensure stable and
 Improved ergonomics and usability, including actuation method and refill process.
 Addressed durability concerns by reinforcing critical features and refining material selection.
 Validated that the design met functional and user requirements under typical use conditions.
-{% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispensers.jpg, RefinedMolds.jpg, ResinCased.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
+{% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispenser.jpg, RefinedMolds.jpg, ResinCasted.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Stainless Steel Stand
 </div>
