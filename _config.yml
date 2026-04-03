@@ -24,7 +24,7 @@ about_text: >-
   Outside engineering, I my hobbies include volleyball, photography, opening Pokemon cards, rock climbing, listening to music, and traveling. 
   I also aim to be a better cook and to share memorable experiences with friends and family!
 
-about_profile_image: assets/images/profile-image/about-headshot.JPG
+about_profile_image: ./assets/images/about-headshot.JPG
 
 
 
