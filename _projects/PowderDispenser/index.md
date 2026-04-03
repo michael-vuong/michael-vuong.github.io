@@ -30,6 +30,11 @@ Produced a single PDF summarizing the idea generation and selection process, hig
 
 Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
 
+{% include image-gallery.html images="Iris.png, Quarter.png, Tongs.png, Hopper.png" height="400" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Initial Powder Scooper/Dispenser Ideas
+</div>
+
 
 ## 3. Concept Development
 - Communicated the finalized product concept and overall manufacturing approach, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
@@ -37,6 +42,11 @@ Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Ent
 - Built targeted feature tests (rather than a single full prototype) to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
 
 Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
+
+{% include image-gallery.html images="AugerCAD.png, Auger.png, AugerExploded.png" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  New Auger Style Dispenser
+</div>
 
 ## 4. EVT (Engineering Validation Testing)
 Fabricated early-stage prototypes focused on validating the core dispensing mechanism.
