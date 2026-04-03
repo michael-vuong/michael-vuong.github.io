@@ -2,6 +2,7 @@
 layout: post
 title: Attachapick
 date: 2025-12-15
+featured: true
 description: A custom, compact capo-integrated storage system that holds guitar picks securely and allows quick access while playing
 
 skills: 
