@@ -17,9 +17,9 @@ Design, prototype, and produce a powder dispensing device through a structured p
 # Design Steps
 
 ## 1. Project Proposal
+### Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
 - Brainstormed and sketched multiple powder dispenser concepts, generating 4 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
 - Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
-- Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
 
 {% include image-gallery.html images="Iris.png, Quarter.png, Tongs.png, Hopper.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
@@ -28,9 +28,8 @@ Design, prototype, and produce a powder dispensing device through a structured p
 
 
 ## 2. Concept Development
-- Communicated the finalized product concept and overall manufacturing approach, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
-- Developed initial mockups and functional prototypes to de-risk key aspects of the design, including powder flow, auger rotation, and material containment.
-- Built targeted feature tests (rather than a single full prototype) to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
+- 3D printed initial mockup to de-risk key aspects of the design, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
+- Built targeted feature tests, rather than a single full prototype, to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
 
 Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
 
@@ -46,6 +45,10 @@ Iteratively modified internal geometries, outlet dimensions, and flow paths to i
 Evaluated fundamental functionality, confirming that the design could reliably dispense material under basic operating conditions.
 Established baseline performance metrics to guide further refinement.
 
+{% include image-gallery.html images="EVTWheel.png, EVTDispenser.png, EVTBottom, CardboardSilicone.jpg, Flatstand.jpg, SiliconeBlock.jpg, Solostand.jpg, 3Cardboard.jpg, MixingSil.jpg" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  New Auger Style Dispenser
+</div>
 
 ## 4. DVT (Design Validation Testing)
 Refined the design to improve reliability, repeatability, and overall user experience.
