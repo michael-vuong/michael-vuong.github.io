@@ -74,7 +74,10 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <br>
 
 ## 4. DVT (Design Validation Testing)
-(Not yet developed)
+{% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispenser.jpg, RefinedMolds.jpg, ResinCasted.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.jpg" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  First Time Silicone Molding (messy and too much silicone, but optimized later!)
+</div>
 
 ## 5. PVT (Production Validation Testing)
 (Not yet developed)
