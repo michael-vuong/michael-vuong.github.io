@@ -77,6 +77,26 @@ Design, prototype, and produce a powder dispensing device through a structured p
 ### Documents Updated: Process Plan, Control Plan, SOPs, Packaging, DVT Report, CAD, BOM, Cost Model, Tooling Plan, Quality Test Plan, Specification Document
 <br>
 - Goal: Create 3 working copies of the dispenser
+- Design was also improved to prevent the top part from toppling
+{% include image-gallery.html images="3Dispenser.jpg, MedDispenser.jpg, SmallDispenser.jpg, CAD.png" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  3 Dispensers of Various Sizes & New Design
+</div>
+
+- Made custom silicone mold parts for each casted part. Reduces excess silicone and improves repeatability and consistency
+- Created molds using 3D-printed mold masters
+{% include image-gallery.html images="RefinedMolds.jpg" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Refined Silicone Molds
+</div>
+
+- Custom 3D printed soft jaws were made for each casted part
+- Ensured tight fit of parts to prevent movement during CNC milling refinement
+{% include image-gallery.html images="SoftJaws.jpg, SoftJawsDemo.jpg, ResinCasted.jpg" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Custom 3D Printed Soft Jaws | Resin Part Before and After CNC Milling
+</div>
+
 {% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispenser.jpg, RefinedMolds.jpg, ResinCasted.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   First Time Silicone Molding (messy and too much silicone, but optimized later!)
