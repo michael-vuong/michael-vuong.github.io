@@ -25,7 +25,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 # Design Steps
 
 ## 1. Project Proposal
-### Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management)
+### Documents updated: Project Description, CAD Drawings, Enterprise Data Management, Schedule, RASCI, Risk Management
 <br>
 - Brainstormed and sketched multiple powder dispenser concepts, generating 4 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
 - Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
@@ -37,7 +37,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <br>
 
 ## 2. Concept Development
-### Documents updated: DOC01 (Project Description), DOC02 (CAD Drawings), DOC03 (Enterprise Data Management), DOC04 (Schedule), DOC05 (RASCI), DOC06 (Risk Management), DOC07 (Specifications), DOC08 (BOM), DOC10 (Tooling Plan).
+### Documents updated: Project Description, CAD Drawings, Enterprise Data Management, Schedule, RASCI, Risk Management, Specifications, BOM, Tooling Plan
 <br>
 - 3D printed initial mockup to de-risk key aspects of the design, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
 - Built targeted feature tests, rather than a single full prototype, to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
@@ -74,6 +74,9 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <br>
 
 ## 4. DVT (Design Validation Testing)
+### Documents Updated: Process Plan, Control Plan, SOPs, Packaging, DVT Report, CAD, BOM, Cost Model, Tooling Plan, Quality Test Plan, Specification Document
+<br>
+- Goal: Create 3 working copies of the dispenser
 {% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispenser.jpg, RefinedMolds.jpg, ResinCasted.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   First Time Silicone Molding (messy and too much silicone, but optimized later!)
