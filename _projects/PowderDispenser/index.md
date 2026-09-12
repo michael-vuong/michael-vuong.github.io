@@ -27,8 +27,8 @@ Design, prototype, and produce a powder dispensing device through a structured p
 ## 1. Project Proposal
 ### Documents updated: Project Description, CAD Drawings, Enterprise Data Management, Schedule, RASCI, Risk Management
 <br>
-- Brainstormed and sketched multiple powder dispenser concepts, generating 4 alternative designs to explore different approaches for controlling powder flow, dosing, and user interaction.
-- Created annotated sketches to illustrate each idea, documenting pros, cons, and potential challenges for manufacturing, assembly, and usability.
+- Brainstormed and sketched four powder dispenser concepts, exploring different mechanisms for controlling powder flow, dosing, and user interaction.
+- Created annotated concept sketches to evaluate the advantages, limitations, manufacturing considerations, assembly requirements, and usability of each approach.
 
 {% include image-gallery.html images="Iris.png, Quarter.png, Tongs.png, Hopper.png" height="200" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
@@ -39,16 +39,17 @@ Design, prototype, and produce a powder dispensing device through a structured p
 ## 2. Concept Development
 ### Documents updated: Project Description, CAD Drawings, Enterprise Data Management, Schedule, RASCI, Risk Management, Specifications, BOM, Tooling Plan
 <br>
-- 3D printed initial mockup to de-risk key aspects of the design, focusing on an auger-based dispensing mechanism to enable controlled and repeatable powder output.
-- Built targeted feature tests, rather than a single full prototype, to evaluate critical risks such as clogging, fit between rotating components, and consistency of dispensing.
+- Developed and 3D printed an initial auger-based dispenser prototype to evaluate controlled and repeatable powder dispensing.
+- Built targeted feature prototypes to de-risk critical design features, including powder clogging, rotating component fit, and dispensing consistency.
 
 {% include image-gallery.html images="AugerCAD.png, Auger.png, AugerExploded.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   New Auger Style Dispenser
 </div>
 <br>
+
 ## 3. EVT (Engineering Validation Testing)
-- Shifted toward new design with a trigger mechanism for dispensing.
+- Transitioned to a trigger-actuated dispensing mechanism to improve the dispensing experience and simplify user interaction.
 {% include image-gallery.html images="EVTDispenser.png, EVTWheel.png, EVTBottom.png" height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   New Dispenser Design
@@ -60,13 +61,13 @@ Design, prototype, and produce a powder dispensing device through a structured p
   First Time Silicone Molding (messy and too much silicone, but optimized later!)
 </div>
   
-- Casted parts with resin, then they were CNC Milled to final geometry
+- Resin-cast functional components and CNC milled critical features to final geometry using custom soft jaws.
 {% include image-gallery.html images="MillingWheel.gif"  height="400" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Milling Parts Using Custom Soft Jaws
 </div>
 
-- Stand was cut using the water jet and bent using a sheet metal brake.
+- Manufactured the stainless steel stand using waterjet cutting and sheet metal bending.
 {% include image-gallery.html images="FlatStand.jpg, SoloStand.jpg"  height="300" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Stainless Steel Stand
@@ -97,10 +98,13 @@ Design, prototype, and produce a powder dispensing device through a structured p
   Custom 3D Printed Soft Jaws | Resin Part Before and After CNC Milling
 </div>
 
-{% include image-gallery.html images="3Dispenser.jpg, CNCLathe.jpg, Fasteners.jpg, HexStock.jpg, MedDispenser.jpg, RefinedMolds.jpg, ResinCasted.jpg, SmallDispenser.jpg, SoftJaws.jpg, SoftJawsDemo.jpg, CAD.png" %}
+- Since this project only allowed one purchased part (which we later used on springs), we made our own 1/4"-20 fasteners
+- Manufactured the bolt from hex stock using a CNC lathe program, machining the required geometry and threads to specification.
+- Manufactured the nuts from hex stock by drilling through-holes, then used wire EDM to cut and separate each individual nut.
+{% include image-gallery.html images="CNCLathe.jpg, Fasteners.jpg, HexStock.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   First Time Silicone Molding (messy and too much silicone, but optimized later!)
-</div>
+
 
 ## 5. PVT (Production Validation Testing)
 (Not yet developed)
