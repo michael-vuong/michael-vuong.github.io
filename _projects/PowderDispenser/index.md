@@ -77,7 +77,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 ## 4. DVT (Design Validation Testing)
 ### Documents Updated: Process Plan, Control Plan, SOPs, Packaging, DVT Report, CAD, BOM, Cost Model, Tooling Plan, Quality Test Plan, Specification Document
 <br>
-- Goal: Create 3 working copies of the dispenser
+- Goal: Create **3** working copies of the dispenser
 - Design was also improved to prevent the top part from toppling
 {% include image-gallery.html images="3Dispenser.jpg, MedDispenser.jpg, SmallDispenser.jpg, CAD.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
@@ -107,7 +107,11 @@ Design, prototype, and produce a powder dispensing device through a structured p
 </div>
 
 ## 5. PVT (Production Validation Testing)
-(Not yet developed)
+- Goal: Create **10** working dispensers
+{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg, FinalStands.jpg, SnapFit.jpg, SnapFit2.jpg, ProductBreakdown.jpg, WireEDM.jpg" %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  Self Made Fasteners
+</div>
 
 ## 6. Mass Production Plan
 (Not yet developed)
