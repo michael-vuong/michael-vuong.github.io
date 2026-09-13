@@ -101,7 +101,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 - Since this project only allowed one purchased part (which we later used on springs), we made our own 1/4"-20 fasteners
 - Manufactured the bolt from hex stock using a CNC lathe program, machining the required geometry and threads to specification.
 - Manufactured the nuts from hex stock by drilling through-holes, then used wire EDM to cut and separate each individual nut.
-{% include image-gallery.html images="HexStock.jpg, CNCLathe.jpg, WireEDM.png, Fasteners.jpg", height="200"  %}
+{% include image-gallery.html images="HexStock.jpg, CNCLathe.jpg, WireEDM.png, Fasteners.jpg" height="200" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Self Made Fasteners
 </div>
@@ -109,6 +109,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 ## 5. PVT (Production Validation Testing)
 ### Documents Updated: CAD, Drawings, BOM, Cost Model, Packaging, Quality Test Plan, Specification Document, SOP, Control Plan, Process Plan, Packaging, Final Report
 - Goal: Create **10** working dispensers
+- A few more design changes were made 
 {% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg, FinalStands.jpg, SnapFit.png, SnapFit2.png, ProductBreakdown.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Self Made Fasteners
