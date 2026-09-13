@@ -86,7 +86,7 @@ Design, prototype, and produce a powder dispensing device through a structured p
 
 - Made custom silicone mold parts for each casted part. Reduces excess silicone and improves repeatability and consistency
 - Created molds using 3D-printed mold boxes
-{% include image-gallery.html images="Moldbox.png, RefinedMolds.jpg" %}
+{% include image-gallery.html images="MoldBox.png, RefinedMolds.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Refined Silicone Molds
 </div>
@@ -126,13 +126,13 @@ Design, prototype, and produce a powder dispensing device through a structured p
 </div>
 
 -With all of our tooling and processes finalized, all that was left was to start production.
-{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg" %}
+{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg" height="600"%}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Self Made Fasteners
 </div>
 
 # Final Results Summary
-{% include image-gallery.html images="ProductBreakdown.png" %}
+{% include image-gallery.html images="ProductBreakdown.png" height="800"%}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Final Dispenser Breakdown
 </div>
