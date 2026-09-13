@@ -113,20 +113,20 @@ Design, prototype, and produce a powder dispensing device through a structured p
 <br>
 - CAD was changed to incorporate a bayonet mount to reduce the number of fasteners needed.
 - This reduces costs and time spent making fasteners and assembling parts.
-{% include image-gallery.html images="SnapFit.png, SnapFit2.png %}
+{% include image-gallery.html images="SnapFit.png, SnapFit2.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   CAD of Bayonet (twist-snap lock) Feature
 </div>
 
 - The metal sheet stand was changed to have a more oval shape to prevent it from tipping over easily
 - They were then polished and finished with an aerosol coating to prevent rust and other damages
-{% include image-gallery.html images="FinalStands.jpg %}
+{% include image-gallery.html images="FinalStands.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Final Stand Design
 </div>
 
 -With all of our tooling and processes finalized, all that was left was to start production.
-{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg %}
+{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Self Made Fasteners
 </div>
