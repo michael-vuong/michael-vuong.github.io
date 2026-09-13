@@ -126,13 +126,14 @@ Design, prototype, and produce a powder dispensing device through a structured p
 </div>
 
 -With all of our tooling and processes finalized, all that was left was to start production.
-{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg" height="600"%}
+{% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg" height="500"%}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Self Made Fasteners
 </div>
 
 # Final Results Summary
-{% include image-gallery.html images="ProductBreakdown.png" height="800"%}
+
+{% include image-gallery.html images="ProductBreakdown.png" height="1000"%}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Final Dispenser Breakdown
 </div>
