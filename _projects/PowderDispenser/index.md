@@ -109,7 +109,15 @@ Design, prototype, and produce a powder dispensing device through a structured p
 ## 5. PVT (Production Validation Testing)
 ### Documents Updated: CAD, Drawings, BOM, Cost Model, Packaging, Quality Test Plan, Specification Document, SOP, Control Plan, Process Plan, Packaging, Final Report
 - Goal: Create **10** working dispensers
-- A few more design changes were made 
+- A few more design changes were made to fix minor issues:
+<br>
+- CAD was changed to incorporate a bayonet mount to reduce the number of fasteners needed.
+- This reduces costs and time spent making fasteners and assembling parts.
+{% include image-gallery.html images="SnapFit.png, SnapFit2.png %}
+<div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
+  CAD of Bayonet (twist-snap lock) Feature
+</div>
+
 {% include image-gallery.html images="AllProducts.jpg, BirdEyeProducts.jpg, FinalStands.jpg, SnapFit.png, SnapFit2.png, ProductBreakdown.png" %}
 <div style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:12px;">
   Self Made Fasteners
